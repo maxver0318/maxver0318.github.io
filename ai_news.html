@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 早報 | Max</title>
+    <meta name="description" content="每天台灣時間早上 8 點，整理前一晚美國的 AI 新聞。">
+    <link rel="icon" type="image/svg+xml" href="avatars/max.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: { extend: { fontFamily: { sans: ['Inter', 'Noto Sans TC', 'sans-serif'] } } }
+        }
+        // 先套用主題，避免載入時閃一下亮色
+        if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .transition-all { transition: all 0.3s ease; }
+        .news-card { scroll-margin-top: 8rem; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100 font-sans transition-all">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="flex justify-between h-16 items-center gap-3">
+                <a href="index.html" class="flex items-center gap-2 font-bold text-lg tracking-tighter text-blue-600 dark:text-blue-400 shrink-0">
+                    <img src="avatars/max.svg" alt="" width="28" height="28" class="w-7 h-7 rounded-md" style="image-rendering: pixelated;">
+                    <span>Max.</span>
+                </a>
+                <div class="flex items-center gap-2 min-w-0">
+                    <a href="#archive" class="text-sm font-medium hover:text-blue-500 transition-colors px-2 whitespace-nowrap">往期電子報</a>
+                    <button id="themeToggle" class="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors" aria-label="切換深色模式">
+                        <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 18v1m9-9h1M3 9h1m17.364-7.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        <svg class="w-5 h-5 dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Masthead -->
+    <header class="pt-28 pb-8 px-4">
+        <div class="max-w-4xl mx-auto">
+            <p class="text-sm font-bold text-blue-500 tracking-wider">MAX'S AI MORNING BRIEF</p>
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tight mt-2">AI 早報</h1>
+            <p class="text-slate-600 dark:text-slate-400 mt-3">每天台灣時間早上 8 點出刊，整理前一晚美國的 AI 新聞。每則都附原文連結，只引用主流科技與財經媒體。</p>
+
+            <!-- Issue switcher -->
+            <div class="mt-8 flex items-center gap-2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl p-2 shadow-sm">
+                <button id="prevIssue" class="shrink-0 w-10 h-10 rounded-xl flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-30 disabled:hover:bg-transparent transition-colors" aria-label="前一期">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                </button>
+                <label class="flex-1 min-w-0">
+                    <span class="sr-only">選擇日期</span>
+                    <select id="issueSelect" class="w-full bg-transparent font-semibold text-center py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer truncate"></select>
+                </label>
+                <button id="nextIssue" class="shrink-0 w-10 h-10 rounded-xl flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-30 disabled:hover:bg-transparent transition-colors" aria-label="後一期">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Issue -->
+    <main class="px-4 pb-16">
+        <div id="issue" class="max-w-4xl mx-auto" aria-live="polite">
+            <p class="text-slate-500 py-12 text-center">載入中…</p>
+        </div>
+    </main>
+
+    <!-- Archive -->
+    <section id="archive" class="px-4 py-16 bg-white dark:bg-slate-800/50">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold mb-8 flex items-center">
+                <span class="w-8 h-1 bg-blue-500 inline-block mr-4"></span>往期電子報
+            </h2>
+            <div id="archiveList" class="grid sm:grid-cols-2 gap-4"></div>
+        </div>
+    </section>
+
+    <!-- Source policy -->
+    <section class="px-4 py-12">
+        <div class="max-w-4xl mx-auto text-sm text-slate-600 dark:text-slate-400 space-y-2">
+            <h2 class="text-base font-bold text-slate-900 dark:text-slate-100">選稿與來源原則</h2>
+            <p>只採用大眾熟知、有編輯查核的媒體：TechCrunch、CNBC、CNN、Bloomberg、Reuters、AP、The Verge、Wired、Ars Technica、Axios、Engadget、The New York Times、The Wall Street Journal 等，以及公司官方部落格與公告。不引用內容農場、匿名爆料帳號或未經查證的轉貼。</p>
+            <p>摘要由 Max 閱讀原文後以繁體中文改寫；圖片為原文的代表圖，版權屬原媒體或標註的攝影來源，點「閱讀原文」可看完整報導。</p>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-slate-200 dark:border-slate-800 text-center text-slate-500 text-sm">
+        <p>© <span id="year"></span> Max · <a href="index.html" class="hover:text-blue-500">回首頁</a></p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        document.getElementById('themeToggle').addEventListener('click', () => {
+            const isDark = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        });
+
+        const TAG_COLORS = {
+            '產業': 'bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300',
+            '產品': 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300',
+            '政策': 'bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300',
+            '晶片': 'bg-violet-100 text-violet-700 dark:bg-violet-900/40 dark:text-violet-300',
+            '市場': 'bg-rose-100 text-rose-700 dark:bg-rose-900/40 dark:text-rose-300',
+            '併購': 'bg-cyan-100 text-cyan-700 dark:bg-cyan-900/40 dark:text-cyan-300',
+            '研究': 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900/40 dark:text-indigo-300',
+            '生活': 'bg-pink-100 text-pink-700 dark:bg-pink-900/40 dark:text-pink-300'
+        };
+        const DEFAULT_TAG = 'bg-slate-200 text-slate-700 dark:bg-slate-700 dark:text-slate-200';
+        const WEEKDAYS = ['日', '一', '二', '三', '四', '五', '六'];
+
+        const make = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text !== undefined) n.textContent = text; return n; };
+        const fmtDate = (d) => { const [y, m, day] = d.split('-').map(Number); const w = new Date(Date.UTC(y, m - 1, day)).getUTCDay(); return `${y}/${String(m).padStart(2, '0')}/${String(day).padStart(2, '0')}（${WEEKDAYS[w]}）`; };
+        // 原文發布時間換算成台灣時間
+        const fmtTaipei = (iso) => new Intl.DateTimeFormat('zh-TW', { timeZone: 'Asia/Taipei', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(iso));
+
+        let issues = [];
+        const select = document.getElementById('issueSelect');
+        const prevBtn = document.getElementById('prevIssue');
+        const nextBtn = document.getElementById('nextIssue');
+        const issueEl = document.getElementById('issue');
+
+        function renderIssue(data) {
+            const wrap = document.createDocumentFragment();
+
+            const head = make('div', 'mb-8');
+            head.appendChild(make('p', 'text-sm font-semibold text-slate-500', `${fmtDate(data.date)} 出刊 · 涵蓋${data.coverage}`));
+            head.appendChild(make('h2', 'text-2xl md:text-3xl font-bold mt-2 leading-snug', data.title));
+            head.appendChild(make('p', 'mt-4 text-lg leading-relaxed text-slate-700 dark:text-slate-300', data.intro));
+            wrap.appendChild(head);
+
+            // 重點速覽
+            const toc = make('div', 'mb-10 p-5 md:p-6 bg-white dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700');
+            toc.appendChild(make('h3', 'font-bold mb-3', `重點速覽（${data.items.length} 則）`));
+            const ol = make('ol', 'space-y-2 text-sm md:text-base');
+            data.items.forEach((item, i) => {
+                const li = make('li', 'flex gap-3');
+                li.appendChild(make('span', 'shrink-0 w-6 text-right font-bold text-blue-500', String(i + 1)));
+                const a = make('a', 'hover:text-blue-500 hover:underline min-w-0', item.title);
+                a.href = `#n${i + 1}`;
+                li.appendChild(a);
+                ol.appendChild(li);
+            });
+            toc.appendChild(ol);
+            wrap.appendChild(toc);
+
+            const list = make('div', 'space-y-8');
+            data.items.forEach((item, i) => {
+                const card = make('article', 'news-card bg-white dark:bg-slate-800 rounded-3xl overflow-hidden shadow-sm border border-slate-100 dark:border-slate-700');
+                card.id = `n${i + 1}`;
+
+                if (item.image) {
+                    const fig = make('figure', 'relative bg-slate-200 dark:bg-slate-700');
+                    const img = make('img', 'w-full aspect-video object-cover');
+                    img.src = item.image;
+                    img.alt = item.title;
+                    img.loading = i < 2 ? 'eager' : 'lazy';
+                    img.referrerPolicy = 'no-referrer';
+                    img.onerror = () => fig.remove();
+                    fig.appendChild(img);
+                    fig.appendChild(make('figcaption', 'absolute bottom-0 right-0 m-2 px-2 py-0.5 rounded bg-black/60 text-white text-[11px] md:text-xs', `圖片來源：${item.imageCredit || item.source.name}`));
+                    card.appendChild(fig);
+                }
+
+                const body = make('div', 'p-5 md:p-8');
+                const meta = make('div', 'flex flex-wrap items-center gap-2 text-xs font-semibold mb-3');
+                meta.appendChild(make('span', 'px-2.5 py-1 rounded-full ' + (TAG_COLORS[item.tag] || DEFAULT_TAG), item.tag));
+                meta.appendChild(make('span', 'text-slate-400', `#${i + 1}`));
+                if (item.published) meta.appendChild(make('span', 'text-slate-500', `原文發布：台灣時間 ${fmtTaipei(item.published)}`));
+                body.appendChild(meta);
+                body.appendChild(make('h3', 'text-xl md:text-2xl font-bold leading-snug', item.title));
+                body.appendChild(make('p', 'mt-3 leading-relaxed text-slate-700 dark:text-slate-300', item.summary));
+                if (item.points && item.points.length) {
+                    const ul = make('ul', 'mt-4 space-y-2 text-sm md:text-base text-slate-600 dark:text-slate-400');
+                    item.points.forEach(p => {
+                        const li = make('li', 'flex gap-2');
+                        li.appendChild(make('span', 'shrink-0 mt-2 w-1.5 h-1.5 rounded-full bg-blue-500'));
+                        li.appendChild(make('span', 'min-w-0', p));
+                        ul.appendChild(li);
+                    });
+                    body.appendChild(ul);
+                }
+
+                const src = make('div', 'mt-6 pt-4 border-t border-slate-100 dark:border-slate-700 flex flex-wrap items-center gap-2 text-sm');
+                src.appendChild(make('span', 'text-slate-500', '來源：'));
+                [item.source, ...(item.related || [])].forEach((s, k) => {
+                    const a = make('a', k === 0
+                        ? 'inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold'
+                        : 'inline-flex items-center gap-1 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-600 hover:border-blue-500 font-semibold');
+                    a.href = s.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+                    a.textContent = k === 0 ? `閱讀原文 · ${s.name} ↗` : `${s.name} ↗`;
+                    src.appendChild(a);
+                });
+                body.appendChild(src);
+                card.appendChild(body);
+                list.appendChild(card);
+            });
+            wrap.appendChild(list);
+
+            issueEl.replaceChildren(wrap);
+        }
+
+        async function showIssue(date, { scroll = false } = {}) {
+            const idx = issues.findIndex(x => x.date === date);
+            if (idx < 0) return showIssue(issues[0].date);
+            select.value = date;
+            prevBtn.disabled = idx >= issues.length - 1;   // 清單由新到舊
+            nextBtn.disabled = idx <= 0;
+            if (location.hash.slice(1) !== date) history.replaceState(null, '', `#${date}`);
+            issueEl.replaceChildren(make('p', 'text-slate-500 py-12 text-center', '載入中…'));
+            try {
+                const res = await fetch(`news/${date}.json`, { cache: 'no-cache' });
+                if (!res.ok) throw new Error(res.status);
+                renderIssue(await res.json());
+                document.title = `AI 早報 ${date} | Max`;
+                if (scroll) document.querySelector('header').scrollIntoView({ behavior: 'smooth' });
+            } catch (e) {
+                issueEl.replaceChildren(make('p', 'text-rose-500 py-12 text-center', `這一期載入失敗（${e.message}），請稍後再試。`));
+            }
+        }
+
+        function renderArchive() {
+            const box = document.getElementById('archiveList');
+            box.replaceChildren(...issues.map(x => {
+                const a = make('a', 'block p-5 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 hover:shadow-lg hover:-translate-y-0.5 transition-all');
+                a.href = `#${x.date}`;
+                a.appendChild(make('p', 'text-sm font-bold text-blue-500', fmtDate(x.date)));
+                a.appendChild(make('p', 'font-semibold mt-1 leading-snug', x.title));
+                a.appendChild(make('p', 'text-xs text-slate-500 mt-2', `${x.count} 則新聞`));
+                return a;
+            }));
+        }
+
+        async function init() {
+            try {
+                const res = await fetch('news/index.json', { cache: 'no-cache' });
+                issues = (await res.json()).issues.sort((a, b) => b.date.localeCompare(a.date));
+            } catch (e) {
+                issueEl.replaceChildren(make('p', 'text-rose-500 py-12 text-center', '電子報清單載入失敗，請稍後再試。'));
+                return;
+            }
+            select.replaceChildren(...issues.map((x, i) => {
+                const o = make('option', '', `${fmtDate(x.date)}${i === 0 ? ' · 最新' : ''}`);
+                o.value = x.date;
+                return o;
+            }));
+            renderArchive();
+            showIssue(location.hash.slice(1) || issues[0].date);
+        }
+
+        select.addEventListener('change', () => showIssue(select.value));
+        prevBtn.addEventListener('click', () => { const i = issues.findIndex(x => x.date === select.value); if (i < issues.length - 1) showIssue(issues[i + 1].date); });
+        nextBtn.addEventListener('click', () => { const i = issues.findIndex(x => x.date === select.value); if (i > 0) showIssue(issues[i - 1].date); });
+        window.addEventListener('hashchange', () => {
+            const h = location.hash.slice(1);
+            if (/^\d{4}-\d{2}-\d{2}$/.test(h) && h !== select.value) showIssue(h, { scroll: true });
+        });
+        init();
+    </script>
+</body>
+</html>
