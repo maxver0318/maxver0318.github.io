@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-13",
+  "coverage": "美國時間 2026/11/12（週四）",
+  "title": "黃仁勳辭去 Nvidia 執行長，Kress 代理；Google 推出 Gemini 4 Hydrogen",
+  "intro": "昨晚最大的新聞是 Nvidia 董事會宣布黃仁勳即刻辭去執行長與董事，由財務長 Colette Kress 代理，股價一度重挫超過 13%，他並同意在感恩節前赴國會閉門作證。另外，Google 推出 Gemini 4 Hydrogen、Fireworks AI 遭駭影響 Notion，以及 Nebius 公布 400 億美元擴張計畫。",
+  "items": [
+    {
+      "tag": "產業",
+      "title": "黃仁勳辭去 Nvidia 執行長與董事，財務長 Kress 代理執行長",
+      "summary": "Nvidia 董事會週四早上宣布，領導公司 33 年的共同創辦人黃仁勳即刻辭去總裁、執行長與董事職務，由財務長 Colette Kress 擔任代理執行長。這距離他承認婚外情、並被報導與一名被美國情報單位認為是中國間諜的女性有關係，只過了幾天。",
+      "points": [
+        "董事長 Harvey Jones 表示董事會對 Kress 與領導團隊有完全信心，並將內外兼顧尋找接班人；Nvidia 一直沒有接班計畫",
+        "CNBC 報導，黃仁勳辭職消息傳出後 Nvidia 股價一度重挫超過 13%，之後收斂部分跌幅",
+        "Kress 59 歲，2013 年加入 Nvidia，先前曾任職 Cisco 與微軟"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/colette-1920x1920_4d360fa4-e97d-4505-9857-284d03141162-prv.jpg?resize=1200,1200",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/"
+      },
+      "related": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html"
+        }
+      ],
+      "published": "2026-11-12T15:37:29Z"
+    },
+    {
+      "tag": "政策",
+      "title": "黃仁勳同意在感恩節前赴國會作證；路透：另有一段未曾曝光的外遇",
+      "summary": "眾議院外交委員會主席 Brian Mast 週四表示，黃仁勳已同意在感恩節前以閉門方式作證，這是在多名資深議員威脅傳喚後的結果。路透同時報導，黃仁勳還與一名 Nvidia 員工有另一段先前未報導過的關係。",
+      "points": [
+        "Mast、Moolenaar、Crawford 三位委員會主席 11 月 4 日曾致函要求他出席；Mast 說聽證預期會錄影並做逐字稿",
+        "路透未公布該名員工姓名；先前已報導的對象包括被指控的間諜 Alice Huang 與 Nvidia 醫療副總 Kimberly Powell",
+        "川普在 Truth Social 提議由 Apple 執行董事長 Tim Cook 接任，Nvidia 尚未回應，也沒有公布任何接班人選"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/"
+      },
+      "related": [
+        {
+          "name": "TechCrunch（路透報導）",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/"
+        },
+        {
+          "name": "TechCrunch（川普提議 Tim Cook）",
+          "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/"
+        }
+      ],
+      "published": "2026-11-12T16:36:37Z"
+    },
+    {
+      "tag": "市場",
+      "title": "CNBC：黃仁勳下台恐衝擊 Nvidia 5,000 億美元的 AI 晶片融資計畫",
+      "summary": "CNBC 分析，Nvidia 曾與 Apollo、BlackRock、Blackstone、Brookfield、高盛與 KKR 簽下初步備忘錄，打算把 AI 晶片當作抵押品，籌措約 5,000 億美元建設資料中心與晶片廠。黃仁勳離開後，這套融資安排可能面臨更多檢視。",
+      "points": [
+        "這些協議仍是初步階段，尚待簽署最終合約",
+        "核心疑問是繼任者能否延續把 GPU 從快速貶值的硬體轉為可融資資產的策略",
+        "BlackRock 與高盛不願評論，其餘公司未能立即回應"
+      ],
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html"
+      },
+      "published": "2026-11-12T16:55:01Z"
+    },
+    {
+      "tag": "產品",
+      "title": "Google 推出 Gemini 4 Hydrogen，AI 模式搜尋更懂複雜問題",
+      "summary": "Google 發表較快速、成本較低的 Gemini 4 Hydrogen 模型，並說這是搜尋「迄今最大的模型升級」。它被用來強化 AI 模式對多重條件問題、含錯字查詢與多語言的理解。",
+      "points": [
+        "Google 稱 Hydrogen 執行任務速度是前代快速模型 Gemini 3.8 Flash 的 2.5 倍",
+        "在 Artificial Analysis Intelligence Index 上，以預設高思考等級勝過較強的 Gemini 4 Argon",
+        "定位是代理型（agentic）工作流程的快速執行，深度推理仍由 Gemini 4 Carbon 與 Argon 負責"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/hydrogen-at-2.01.42-PM.jpg?resize=1200,589",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+      },
+      "published": "2026-11-12T19:27:45Z"
+    },
+    {
+      "tag": "產業",
+      "title": "Fireworks AI 遭駭，Notion AI 客戶的對話內容外洩",
+      "summary": "AI 模型平台 Fireworks AI 證實，攻擊者先入侵其雲端供應商，再取得一套開發系統，進而拿走部分客戶的帳單資訊與資料集。Notion 表示約 1% 的客戶受影響，被取得的包含使用「Insights」功能的 Notion AI 對話紀錄。",
+      "points": [
+        "Notion 11 月 3 日已中斷與 Fireworks 的連線並刪除相關資料",
+        "Fireworks 認為駭客為財務動機，目的是轉賣 LLM 存取權限；客戶包括 Harvey 與 Cursor",
+        "Notion 說外洩資料多半無法追溯到特定客戶"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2021/02/notion-glitch-hero.jpg?resize=1200,827",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+      },
+      "published": "2026-11-12T15:02:28Z"
+    },
+    {
+      "tag": "產業",
+      "title": "Nebius 公布 2027 年 400 億美元投資計畫，遠超市場預期",
+      "summary": "AI 雲端業者 Nebius 在第三季財報電話會議上提出 2027 年 400 億美元的規畫支出，並打算以客戶預付款與以客戶合約為擔保的貸款來融資。但部分專案已出現延遲。",
+      "points": [
+        "最大客戶之一微軟的新澤西 Vineland 資料中心延遲數月，合約價值最高 194 億美元，年底前只交付略多於一半容量，其餘預計 2027 年第二季",
+        "執行長 Volozh 坦言「延遲是目前產業的一部分，我們也不例外」",
+        "報導指微軟對無法如期交付的 neocloud 合約態度轉趨保守"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2300447831.jpg?w=1024",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+      },
+      "published": "2026-11-12T21:27:10Z"
+    },
+    {
+      "tag": "產品",
+      "title": "Meta 的 Muse 開放付費用戶代打電話給美國商家",
+      "summary": "Meta 的消費者 AI 助理 Muse 現在可以替付費訂閱者打電話給美國商家，例如有線電視公司、監理所或不能線上訂位的餐廳。這項功能 9 月起僅限少數早期使用者測試。",
+      "points": [
+        "Muse 用戶超過 1,000 萬；方案每月 20 美元含每週 5 億 Muse tokens，每月 100 美元含 30 億",
+        "Meta 超級智慧實驗室負責人 Alexandr Wang 也在說明該功能",
+        "新創 Instinct 等也提供類似的 AI 代打電話服務"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/muse-calls.jpg?w=1104",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+      },
+      "published": "2026-11-12T22:22:28Z"
+    },
+    {
+      "tag": "產業",
+      "title": "Hugging Face 執行長：黃仁勳離開後仍會堅持開源 AI",
+      "summary": "Nvidia 9 月宣布以 129 億美元收購開源 AI 平台 Hugging Face。執行長 Clément Delangue 在黃仁勳辭職後發文說這是「令人難過的一天」，並強調會比以往更努力推動開源 AI。",
+      "points": [
+        "黃仁勳過去是開源與開放權重模型的主要支持者，外界擔心 Nvidia 日後的開源立場",
+        "路透 10 月報導，美國司法部已就這筆併購對競爭的影響展開詢問"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/Hugging-Face-CEO-Clem-Delangue.png?resize=1200,675",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/"
+      },
+      "published": "2026-11-12T17:36:40Z"
+    },
+    {
+      "tag": "市場",
+      "title": "創投 Norwest 募得 40 億美元新基金，加碼 AI",
+      "summary": "由富國銀行獨家支持的 Norwest 募集第 18 檔、也是史上最大的 40 億美元基金，將更積極投資 AI 新創，涵蓋美國、印度與以色列等地。",
+      "points": [
+        "重點包括實體 AI、語音 AI、代理型資安與航太",
+        "最近的投資包括測試 AI 代理的 Coval，以及機器人基礎模型公司 Generalist AI",
+        "上一檔第 17 檔基金為 30 億美元，2024 年結束募資"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/norwest_team-partner-offsite-2026-1-copy.jpg?resize=1200,805",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/"
+      },
+      "published": "2026-11-12T15:18:14Z"
+    }
+  ]
+}
