@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-12",
+  "coverage": "美國時間 2026/11/11（週三）",
+  "title": "傳 Nvidia 董事會考慮撤換黃仁勳，盤後股價重挫約 8%",
+  "intro": "昨晚最震撼的消息來自 Nvidia：《華爾街日報》報導董事會最快週三開會討論是否撤換執行長黃仁勳，盤後股價大跌約 8%，但截至出刊前還沒有正式決定。OpenAI 則傳出單季營收首度突破 100 億美元；聯合航空開始限制 AI Agent 代訂機票，英國 AI 晶片新創 Fractile 募得 7.2 億美元。",
+  "items": [
+    {
+      "tag": "產業",
+      "title": "《華爾街日報》：Nvidia 董事會準備撤換執行長黃仁勳，盤後股價跌約 8%",
+      "summary": "據《華爾街日報》引述消息人士，Nvidia 董事會最快週三開會決定共同創辦人兼執行長黃仁勳的去留；他已領導公司 33 年。截至出刊前，董事會尚未對外公布任何決定。",
+      "points": [
+        "黃仁勳週日承認婚外情，對象被美國情報單位認為是中國間諜；《紐約時報》週三晚間再報導，他也曾與一名向他直屬匯報的主管有婚外情",
+        "消息傳出後 Nvidia 盤後股價下跌約 8%，過去五天累計跌約 11%",
+        "黃仁勳有約 60 位直屬部屬，公司一直沒有明確的接班人或接班計畫"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+      "imageCredit": "TechCrunch",
+      "source": { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/" },
+      "related": [
+        { "name": "CNN", "url": "https://www.cnn.com/2026/11/11/investing/nvidia-stock-jensen-huang" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html" }
+      ],
+      "published": "2026-11-11T23:28:45Z"
+    },
+    {
+      "tag": "產業",
+      "title": "彭博：OpenAI 單季營收首度突破 100 億美元",
+      "summary": "彭博引述匿名消息指出，受新模型需求帶動，OpenAI 第三季營收首度超過 100 億美元，比第二季的 67 億美元成長近五成；調整後營業利益率也從 -150% 改善到 -109%。OpenAI 尚未證實這些數字。",
+      "points": [
+        "年化營收（run-rate）達 500 億美元；Anthropic 前一天公布的數字是 810 億美元，但兩家計算方式不同（Anthropic 含雲端夥伴的銷售）",
+        "成長來自價格調整、更好的模型，以及更多企業產品與 AI Agent"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-rose.jpg?resize=1200,675",
+      "imageCredit": "TechCrunch",
+      "source": { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/" },
+      "published": "2026-11-11T16:14:44Z"
+    },
+    {
+      "tag": "產品",
+      "title": "聯合航空限制 AI Agent 代訂機票，理由是安全與法規",
+      "summary": "聯合航空表示將修改訂位、開票與通路政策，限制第三方 AI 助理透過官網、旅行社與比價平台幫使用者訂機票或操作帳戶，趕在年底旅遊旺季前上路。",
+      "points": [
+        "航空公司擔心把帳密交給 AI 助理，可能造成非本人購買、帳戶被改，或 MileagePlus 里程遭濫用",
+        "也認為 AI 代辦可能牴觸美國運輸部與聯邦航空總署規定，例如報到時必須由本人確認行李沒有爆裂物",
+        "做法和 Expedia、Booking 相反，這兩家選擇與 OpenAI 合作"
+      ],
+      "image": "https://www.engadget.com/img/gallery/united-is-restricting-ai-agents-from-booking-flights/l-intro-1794427706.jpg",
+      "imageCredit": "Engadget",
+      "source": { "name": "Engadget", "url": "https://www.engadget.com/2314121/united-is-restricting-ai-agents-from-booking-flights/" },
+      "related": [ { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/11/united-airlines-ai-agents.html" } ],
+      "published": "2026-11-11T20:09:44Z"
+    },
+    {
+      "tag": "晶片",
+      "title": "英國 AI 晶片新創 Fractile 完成 7.2 億美元 C 輪募資",
+      "summary": "Fractile 的 C 輪由 Thrive Capital、Founders Fund、Lightspeed、Redpoint 領投，英國主權 AI 基金也參與。英國政府說估值「超過 50 億英鎊」，《金融時報》與路透報導約 70 億美元。",
+      "points": [
+        "做法是把一般 DRAM 直接疊在晶片上，想同時兼顧記憶體容量與推論速度，並自研編譯器",
+        "執行長表示這筆資金將用來在明年出貨第一批晶片與系統"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2183896789.jpg?resize=1200,800",
+      "imageCredit": "TechCrunch（Getty Images）",
+      "source": { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/" },
+      "published": "2026-11-11T19:34:55Z"
+    },
+    {
+      "tag": "產品",
+      "title": "Databricks 升級 AI Agent「Genie」，能長時間獨立完成多步驟任務",
+      "summary": "Databricks 推出新版 Genie，透過自建的知識結構（ontology）理解客戶存在平台上的資料，可以不用人盯著就完成需要長時間的多步驟工作，主打給企業主管用的「常駐 Agent」。",
+      "points": [
+        "執行長 Ali Ghodsi 示範自己的用法：分析員工滿意度調查的弱項、檢討失敗的銷售簡報、準備訪談",
+        "他說公司有 1.2 萬名員工，很多壞消息傳不到他耳裡，Genie 成了聽到實話的管道"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2021/04/Ali_Ghodsi.jpg?resize=1200,1200",
+      "imageCredit": "TechCrunch",
+      "source": { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/" },
+      "published": "2026-11-11T15:00:00Z"
+    },
+    {
+      "tag": "產業",
+      "title": "Meta 基礎設施主管 Santosh Janardhan 卸任，由前 AWS 高層接手",
+      "summary": "在 Meta 服務 17 年、負責基礎設施並共同領導工程部門的 Santosh Janardhan 將卸任，由今年才加入、曾在 Amazon 待 19 年的 Dave Brown 接任。Janardhan 會先轉任 Meta Compute 的顧問，預計明年離開。",
+      "points": [
+        "Janardhan 今年才被指派領導 Meta Compute，負責擴大資料中心投資；卸任原因未說明"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/Meta-image.jpg?w=1024",
+      "imageCredit": "TechCrunch",
+      "source": { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/" },
+      "published": "2026-11-11T20:12:01Z"
+    }
+  ]
+}

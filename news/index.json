@@ -1,5 +1,14 @@
 {
   "issues": [
-    { "date": "2026-11-11", "title": "Anthropic 公布上市價格區間，Claude 進軍辦公室軟體", "count": 10 }
+    {
+      "date": "2026-11-12",
+      "title": "傳 Nvidia 董事會考慮撤換黃仁勳，盤後股價重挫約 8%",
+      "count": 6
+    },
+    {
+      "date": "2026-11-11",
+      "title": "Anthropic 公布上市價格區間，Claude 進軍辦公室軟體",
+      "count": 10
+    }
   ]
 }
