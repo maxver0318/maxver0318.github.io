@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-14",
+  "coverage": "美國時間 2026/11/13（週五）",
+  "title": "中國頂尖模型疑用禁運 Blackwell 晶片；OpenAI 推出 ChatGPT Wallet",
+  "intro": "週五美國新聞量偏少，這期放 7 則。最大的是研究指中國頂尖開放權重模型疑似以被禁出口的 Nvidia Blackwell 訓練，黃仁勳辭職後 AI 新創圈也擔心資金缺口。另外，OpenAI 推出可代買東西的 ChatGPT Wallet，LangChain 以 30 億美元估值募得 3 億美元。",
+  "items": [
+    {
+      "tag": "晶片",
+      "title": "研究：中國最強開放權重模型疑似以禁運的 Nvidia Blackwell 晶片訓練",
+      "summary": "非營利研究組織 Unemployment Labs 分析 DeepSeek、Moonshot AI、MiniMax 與螞蟻集團釋出的開放權重模型，主張模型權重仍帶有訓練晶片配置的痕跡，其中 Moonshot 的 Kimi K3 與 DeepSeek 的 V4 帶有 Blackwell 訓練的指紋。Blackwell 禁止出口到中國，這也讓 Nvidia 的出口管制風險更受關注。",
+      "points": [
+        "研究者是前 OpenAI 研究員 Will DePue；TechCrunch 指出這不代表模型完全以 Nvidia 晶片訓練，也不必然違反出口管制，因為晶片可能位於境外資料中心",
+        "Epoch AI 估計 2024 與 2025 年約有 200 萬顆先進晶片透過隱藏最終目的地的管道進入中國",
+        "川普政府目前允許 Nvidia 出口效能較低的 H200，條件是走特定運送路線，讓美國能課徵 25% 關稅"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2301327883.jpg?resize=1200,795",
+      "imageCredit": "TechCrunch（Getty Images）",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+      },
+      "published": "2026-11-13T18:40:30Z"
+    },
+    {
+      "tag": "市場",
+      "title": "黃仁勳離開 Nvidia，AI 新創圈憂心資金出現大缺口",
+      "summary": "TechCrunch 訪問創投與創辦人，認為黃仁勳辭職後，一向大手筆投資新創的 Nvidia 可能改變方向，對 AI 新創的融資、估值與併購都會有影響。",
+      "points": [
+        "PitchBook 資料顯示，Nvidia 今年參與了 105 輪募資，且常是最大投資人",
+        "Seligman Ventures 的 Umesh Padval 說，許多投資決定多半出自黃仁勳本人",
+        "一位 neocloud 創辦人形容消息傳出時「像炸彈爆炸」"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
+      },
+      "published": "2026-11-13T22:43:00Z"
+    },
+    {
+      "tag": "產業",
+      "title": "華爾街日報：黃仁勳曾形容接班的 Kress「像被車燈照到的鹿」",
+      "summary": "TechCrunch 引述華爾街日報的匿名消息報導，黃仁勳今年夏天在一場財務團隊會議上，以「deer in the headlights」形容現任代理執行長 Colette Kress，並說她無法協助他擬定策略。Nvidia 仍在尋找正式的執行長人選。",
+      "points": [
+        "會議主題是 Nvidia 為付不起晶片價款的資料中心業者提供數十億美元擔保的計畫（此為匿名消息來源說法）",
+        "報導稱 Kress 曾質疑涉及黃仁勳女婿 Nico Caprez 的信貸型交易；她也縮減了對 OpenAI 俄亥俄州資料中心的承諾：原本談的是 2,500 億美元信貸，最後承諾 1,050 億美元",
+        "此為匿名單一來源的報導，Nvidia 方面的回應原文未提"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/colette-1920x1920_4d360fa4-e97d-4505-9857-284d03141162-prv-e1794568317250.jpg?resize=1200,676",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/"
+      },
+      "published": "2026-11-13T12:28:23Z"
+    },
+    {
+      "tag": "產品",
+      "title": "OpenAI 推出 ChatGPT Wallet，讓 AI 代理替你購物結帳",
+      "summary": "OpenAI 週五推出新的錢包功能，讓名為 dots 的代理協助挑選商品並代為完成購買。目前僅對部分美國 ChatGPT Pro 訂閱者（18 歲以上、持美國核發的 Visa、Mastercard 或 American Express）開放。",
+      "points": [
+        "結帳前使用者可檢視商品、總額與扣款卡片，並以 Face ID 或指紋核准，系統會留下交易紀錄",
+        "TechCrunch 指出 DoorDash 與 Uber 目前回報的 AI 代理訂單量偏低，而 Meta 的 Muse 已有逾 1,000 萬用戶，AI 輔助購物成為熱門用途"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+      },
+      "published": "2026-11-13T16:00:12Z"
+    },
+    {
+      "tag": "市場",
+      "title": "LangChain 完成 3 億美元 C 輪，估值 30 億美元",
+      "summary": "代理管理新創 LangChain 宣布由 CapitalG 領投募得 3 億美元 C 輪，估值達 30 億美元，是約一年前 12.5 億美元估值的兩倍以上。",
+      "points": [
+        "GIC、DFJ Growth、IVP、Sapphire Ventures 等參與；上一輪為 1.25 億美元，由 IVP 領投",
+        "旗下 LangSmith 主打不綁定特定模型或雲端，宣稱有 7,000 家客戶，包括 Harvey、Rippling、Clay，以及 Nvidia、Toyota、Salesforce"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Raising-money.jpg?resize=1200,829",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+      },
+      "published": "2026-11-13T19:37:57Z"
+    },
+    {
+      "tag": "產業",
+      "title": "微軟全球性當機持續一天，Copilot 與 Defender 也受影響",
+      "summary": "微軟週四起的大規模故障，從 Outlook 與 Teams 擴大成影響消費者與企業電郵、檔案與文件的全球雲端問題，Copilot AI 工具與 Defender 資安防護也一度中斷。週五美國東岸早晨已逐步恢復。",
+      "points": [
+        "微軟只說是「大量伺服器意外無法使用」，尚未公布原因，仍在調查",
+        "系統管理員一度無法進入 Intune 管理介面，部分用戶的雲端 Windows 電腦也受影響"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/ms-outage-hero-2304360163.jpg?resize=1200,894",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/"
+      },
+      "published": "2026-11-13T13:15:20Z"
+    },
+    {
+      "tag": "產品",
+      "title": "ElevenLabs 推出 ElevenAI 預覽版，整合會議記錄與語音輸入",
+      "summary": "估值 220 億美元的語音 AI 公司 ElevenLabs 在紐約 11/11 Summit 發表實驗性應用 ElevenAI，結合會議記錄、聽寫與代理整合，定位為團隊使用，需登記搶先體驗。",
+      "points": [
+        "可跨會議查詢內容、在對話中即時協助，並提醒與會者正在錄音",
+        "可串接 ElevenAgent 執行後續動作（如依會議記錄草擬郵件）；聽寫支援 90 種以上語言",
+        "競爭對手包括 Fireflies、Wispr Flow 與 Granola"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-13-at-7.19.18-PM.jpg?resize=1200,774",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/"
+      },
+      "published": "2026-11-13T14:44:48Z"
+    }
+  ]
+}
