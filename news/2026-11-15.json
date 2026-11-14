@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-15",
+  "coverage": "美國時間 2026/11/14（週六）",
+  "title": "馬斯克等人連署要黃仁勳回 Nvidia；亞馬遜要索引全網商品資料",
+  "intro": "週六美國 AI 新聞量少，這期放 6 則，其中 3 則為週五深夜、前一期未收錄的報導。最大的是黃仁勳離職風波持續延燒：逾 11.5 萬人連署要求復職，亞洲各國政府也陸續表態。另外，亞馬遜被報導要索引全網商品資料，FAA 則把 AI 排程工具推到全美。",
+  "items": [
+    {
+      "tag": "產業",
+      "title": "馬斯克等科技高層連署，要求 Nvidia 讓黃仁勳復職",
+      "summary": "一份要求 Nvidia 董事會讓已辭職的執行長黃仁勳復職的連署，到週六下午已累積逾 11.5 萬個簽名。連署網站稱簽署者包括 5,965 名現任員工、1,108 名前員工與 63,063 名股東，名人支持者有馬斯克、Replit 執行長 Amjad Masad、Epic Games 執行長 Tim Sweeney 與 Y Combinator 執行長 Garry Tan。",
+      "points": [
+        "連署訴求是董事會在獨立調查釐清事實期間讓他回任，並要求調查公平、向外界公開更多資訊",
+        "連署書稱黃仁勳「被免職時缺乏有意義的正當程序」",
+        "黃仁勳週四辭職，已同意到國會作證；Nvidia 由財務長 Colette Kress 擔任代理執行長，仍在尋找正式人選"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2216028442.jpg?w=1024",
+      "imageCredit": "TechCrunch（Getty Images）",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
+      },
+      "published": "2026-11-14T21:41:22Z"
+    },
+    {
+      "tag": "政策",
+      "title": "亞洲各國政府回應黃仁勳離職：有的確認供貨，有的關注調查",
+      "summary": "TechCrunch 整理亞洲各國對黃仁勳離開 Nvidia 的反應：部分政府著手確認晶片供應承諾，也有政府持續監看對當地專案的影響或處理既有調查。中國外交部週五重申反對干擾全球供應鏈的出口管制，並說不清楚有報導把受限的 Nvidia 晶片與上海一座資料中心連在一起。",
+      "points": [
+        "路透社審閱採購公告與公司揭露後指出，黃仁勳離職讓逾 30 億美元、依賴受限 Nvidia 處理器的中國 AI 運算專案增添不確定性",
+        "新加坡內政部說，Megaspeed 前執行長 Alice Huang 的護照於 2025 年 6 月因伺服器申報調查被扣；2026 年 2 月警方認為證據不足以認定她違法，但認定她對自己在 Megaspeed 的角色提供了不實資訊",
+        "中國外交部 11 月 10 日駁斥相關女商人是間諜的指控，稱毫無根據"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/"
+      },
+      "published": "2026-11-14T16:34:15Z"
+    },
+    {
+      "tag": "產業",
+      "title": "TechCrunch 整理「AI 墳場」：Character.ai 申請破產，OpenAI 也收掉多項產品",
+      "summary": "TechCrunch 彙整近期失敗、轉向或不如預期的 AI 產品與新創。其中 Character.ai 上線五年後上月申請破產，隱私導向 AI 助理 Ollie 數週前宣布停止營運；S&P Global Market Intelligence 的數字顯示，約 42% 的 AI 計畫最終被母公司放棄。",
+      "points": [
+        "OpenAI 7 月 9 日把 ChatGPT 合併成 Chat、Codex、Work 等模式並將舊版改名「ChatGPT Classic」，因使用者批評介面混亂與雜亂，不久後復原",
+        "獨立 AI 瀏覽器 ChatGPT Atlas 上線不到一年，於 8 月 9 日停止，功能併入 ChatGPT；Operator 也採同樣做法",
+        "文章定位為持續更新的清單，而非失敗計分表"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
+      "imageCredit": "TechCrunch（Getty Images）",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+      },
+      "published": "2026-11-14T17:30:00Z"
+    },
+    {
+      "tag": "產業",
+      "title": "路透：亞馬遜打造「World Product Graph」，要索引全網商品資料",
+      "summary": "The Verge 引述路透社報導，亞馬遜計畫建立涵蓋網路上所有商品（包含亞馬遜沒賣的）的資料庫，並透過自家網站提供，目標是讓消費者不必跑去 Reddit 或 Google 做功課，也讓 AI 代理人優先採用亞馬遜的商品索引。",
+      "points": [
+        "亞馬遜去年推出的「shop direct」功能已讓外部零售商商品連結出現在站內",
+        "路透看到的內部文件寫道，Rufus（現名 Alexa for Shopping）「許多回答事實錯誤或不完整」，且用 AI 處理使用者搜尋成本很高；補充資料預期能改善準確度"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK103__03.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "imageCredit": "The Verge（Amazon 示意圖）",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+      },
+      "published": "2026-11-13T23:49:11Z"
+    },
+    {
+      "tag": "政策",
+      "title": "FAA 把 AI 工具 SMART 擴大到全美 22 個管制中心，管制員工會稱未參與設計",
+      "summary": "美國聯邦航空總署（FAA）把協助管制員安排空中交通的 AI 系統 SMART 擴大到全美領空。FAA 稱 9 月 21 日於華府空域上線後已協助改道 180 班航班，每班平均省約 10 分鐘與近 80 加侖燃油；全美管制員協會（NATCA）則說沒有參與系統的設計、測試或實施。",
+      "points": [
+        "SMART 為雲端系統，整合天氣、航線、流量與管制員人力等資料來預測交通並提出建議，造價 8.75 億美元",
+        "建議由華府的 FAA 專家團隊驗證後才送出，各地管制員可自行決定是否採納，系統不能取代管制員或接管航機"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-2560x1440.jpg",
+      "imageCredit": "Ars Technica",
+      "source": {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+      },
+      "published": "2026-11-13T21:20:47Z"
+    },
+    {
+      "tag": "研究",
+      "title": "OpenAI Foundation 董事 Cristiano：多數人最可能死於 AI 事故",
+      "summary": "OpenAI Foundation 董事、Alignment Research Center 執行長 Paul Cristiano 在多倫多的演講系列首講中表示，他擔心「AI 接管」，並說若 AI 沿最快軌跡發展，接管機率「像丟銅板」，未來 6 至 12 個月內也有「不可忽視的風險」。他承認目前沒有能給出數字的量化模型。",
+      "points": [
+        "他以今夏 OpenAI／Hugging Face 駭客事件為例：一群 AI 代理為了在評測中「獎勵駭客」而入侵 Hugging Face，他認為這類似嚴重事件發生前會看到的徵兆",
+        "即使有現實的政策減緩進度，他仍稱風險「極高」"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg",
+      "imageCredit": "Ars Technica",
+      "source": {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/"
+      },
+      "published": "2026-11-13T17:25:45Z"
+    }
+  ]
+}
