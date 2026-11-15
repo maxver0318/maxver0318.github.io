@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-16",
+  "coverage": "美國時間 2026/11/15（週日）",
+  "title": "Anthropic 週四掛牌在即；財長要求 Nvidia 大幅改組、國會擬收緊晶片出口",
+  "intro": "週日美國 AI 新聞量少，這期放 8 則，其中 3 則為週五、週六稍晚發布而前一期未收錄的報導。黃仁勳風波進入政治層面：財政部長要求 Nvidia 改組，國會兩黨也想收緊晶片出口；另一邊，Anthropic 預計週四上市，Nvidia 週二財報成為市場焦點。",
+  "items": [
+    {
+      "tag": "市場",
+      "title": "Anthropic 預計週四在那斯達克掛牌，CNBC：這是科技業近年最關鍵的 IPO",
+      "summary": "CNBC 指出，在利率上升、AI 反彈聲浪、美國政治風向轉變與黃仁勳去職之際，Anthropic 預計週四登陸那斯達克，成為整個 AI 市場的指標事件。預期發行價為每股 70 至 78 美元，AMD、博通、Google、美光、微軟、Nvidia 與台積電合計將以 IPO 價投入 260 億美元。",
+      "points": [
+        "依公開說明書，Anthropic 尚有逾 9,000 億美元的支出承諾，其中至少 1,100 億美元為十年內向亞馬遜採購；並計畫自 2028 年起向 Google 採購價值 1,250 億至 1,500 億美元的 AI 晶片",
+        "公司 2026 年前九個月淨虧損 1,040 億美元；IPO 募資可能超過 900 億美元，另有 1,320 億美元現金與短期投資",
+        "Nvidia 將於週二公布財報、兩天後就是 Anthropic 掛牌；IPO 後 Google 預計持股約 13%"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108551525-1794626973698-gettyimages-2297195304-AFP_C9PF6JT.jpeg?v=1794627031&w=1920&h=1080",
+      "imageCredit": "CNBC（AFP／Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html"
+      },
+      "published": "2026-11-15T12:00:01Z"
+    },
+    {
+      "tag": "政策",
+      "title": "財政部長 Bessent：Nvidia 需要「大幅改組」，應從外部找新執行長",
+      "summary": "美國財政部長 Bessent 週日在福斯新聞表示，Nvidia 董事會應向外尋找下一任執行長，並質疑公司是否為了「拉抬營收與獲利」而推動疑似違規的先進晶片銷售。他也說，若這是一家銀行，貨幣監理署（OCC）早已進駐，許多高層會被撤換。",
+      "points": [
+        "他點出 Nvidia 自 2025 年 11 月起不再單獨揭露新加坡營收，而當時新加坡營收增加、中國銷售下滑",
+        "Bessent 與商務部長 Lutnick 就疑似晶片轉運至中國一事出現公開歧見；Axios 報導 Bessent 曾在白宮戰情室向 Lutnick 究責，商務部否認",
+        "Semafor 報導兩人預計本週隨川普赴中國，川普將在 APEC 場邊與習近平見面"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108487950-1793387874122-gettyimages-2302201596-lnb02366.jpeg?v=1793387920&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html"
+      },
+      "related": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/11/15/bessent-nvidia-earnings-china-chip-sales-ceo"
+        }
+      ],
+      "published": "2026-11-15T16:49:11Z"
+    },
+    {
+      "tag": "政策",
+      "title": "國會兩黨都想收緊 AI 晶片出口規定，要求黃仁勳等人作證",
+      "summary": "The Verge 報導，在黃仁勳與疑似中國間諜的關係曝光後，美國國會兩黨議員都表態支持更嚴格的 AI 晶片出口管制，並要求黃仁勳與 Nvidia 其他高層出面作證。",
+      "points": [
+        "參議院銀行委員會主席 Tim Scott 已去信黃仁勳與商務部長 Lutnick，要求公開作證；民主黨領袖 Schumer 稱黃仁勳與川普政府都須向國會交代",
+        "2025 年 4 月在眾議院提出、卡在參議院的《遠端存取安全法》重新受到關注；眾議院議長 Johnson 引述路透稱國會對限制對中晶片出口「共識日增」"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "imageCredit": "The Verge（Cath Virginia／Getty Images）",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+      },
+      "published": "2026-11-15T19:15:43Z"
+    },
+    {
+      "tag": "產業",
+      "title": "Megaspeed：Alice Huang 2025 年 8 月已離職，將展開內部調查",
+      "summary": "新加坡雲端公司 Megaspeed 週日對 CNBC 表示，Alice Huang 已於 2025 年 8 月 30 日離職、目前在公司沒有任何職務，並稱外界對其業務與供應鏈的報導「缺乏可查證的證據」，已委任外部律師進行內部調查。The Verge 則說這份聲明「引出更多疑問」。",
+      "points": [
+        "Megaspeed 自稱是 Nvidia 在當地算力雲業務的「核心合作夥伴」，過去就因晶片是否被轉運至中國而受到媒體與政府關注",
+        "美國情報官員被《紐約時報》引述認為 Alice Huang 是中國情報人員；The Verge 另提到有傳聞稱黃仁勳在尋找重返執行長的途徑（未經證實）"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108547469-1794318020972-gettyimages-2303987004-AFP_D6ZC9G8.jpeg?v=1794318066&w=1920&h=1080",
+      "imageCredit": "CNBC（AFP／Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html"
+      },
+      "related": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed"
+        }
+      ],
+      "published": "2026-11-15T08:20:51Z"
+    },
+    {
+      "tag": "市場",
+      "title": "兩大股東致函 Nvidia 董事會：考慮「黃仁勳可能復出」",
+      "summary": "Altimeter Capital 執行長 Brad Gerstner 週五在 X 上公開一封與 Atreides Management 的 Gavin Baker 連署的信，呼籲董事會「緩慢、審慎」處理領導層問題，別在事實未明前倉促換人。信中未要求立即讓黃仁勳復職，並稱代理執行長 Kress 能「勝任」帶領公司。",
+      "points": [
+        "Altimeter 去年 6 月底持有 940 萬股 Nvidia（約 19 億美元），Atreides 持有 120 萬股（約 2.5 億美元）",
+        "Lutnick 已同意 12 月 10 日赴參議院銀行委員會說明商務部是否有效阻止先進 AI 晶片流入中國，黃仁勳也受邀作證"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108330861-1783348415168-gettyimages-2284894623-0d6a8687_71g2vgle.jpeg?v=1794673296&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html"
+      },
+      "related": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/"
+        }
+      ],
+      "published": "2026-11-14T17:35:51Z"
+    },
+    {
+      "tag": "產業",
+      "title": "Nvidia 的資安團隊當時在哪？TechCrunch 追問資安長八月離任",
+      "summary": "TechCrunch 指出，Nvidia 任職七年的資安長 David Reber 今年 8 月以健康因素卸任，兩個半月後黃仁勳便因感情關係風波離開公司。文章強調目前沒有公開資料把兩者連在一起，Nvidia 與 Reber 也未回應提問，但值得追問資安團隊是否知道政府對 Megaspeed 的審查。",
+      "points": [
+        "資安專家表示，CEO 的私人關係通常歸人資、法務與董事會處理，但任何外遇都可能讓外國情報機關有可乘之機",
+        "《紐約時報》先前報導，Nvidia 首席法律顧問一年多前就與政府的 Megaspeed 調查有接觸；Nvidia 稱會定期與官員聯繫"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-1.jpg?w=1024",
+      "imageCredit": "TechCrunch",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+      },
+      "published": "2026-11-15T00:08:07Z"
+    },
+    {
+      "tag": "生活",
+      "title": "Tesla 開放 Cybercab「個人使用」預購：29,990 美元加每月 299 美元",
+      "summary": "Tesla 週五晚間讓「部分客戶」預購自駕計程車 Cybercab 的個人版。依科技評測者 Marques Brownlee 在訂單頁面看到的條件，買家須在德州幾個城市取車，車輛只能在指定地理圍欄內運作，預計 2026 年 12 月交車。",
+      "points": [
+        "售價 29,990 美元，另須每月支付 299 美元的營運費；馬斯克回應這筆月費「太高」，應與 FSD 加連網費相近（約每月 115 美元）",
+        "馬斯克說待取得法規許可後會推向全美；Tesla 的 Ashok Elluswamy 稱 Cybercab 會在與 Robotaxi 相同的地點「無人監督」運作"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/tesla-cybercab-getty.jpg?resize=1200,834",
+      "imageCredit": "TechCrunch（Getty Images）",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/"
+      },
+      "published": "2026-11-14T20:04:44Z"
+    },
+    {
+      "tag": "研究",
+      "title": "Wired：AI 助長勒索軟體暴增，完全自動化攻擊尚未出現",
+      "summary": "Wired 週報指出，勒索與資料勒索攻擊近月顯著增加，研究者估計夏季排行榜網站上宣稱的攻擊近 3,000 起，較春季增加約 20% 至 40%。專家認為 AI 目前主要用在釣魚信件與談判等環節，成功的勒索集團仍以人工操作為主。",
+      "points": [
+        "前 FBI 網路副局長、現任 Halcyon 研究主管 Cynthia Kaiser 表示，近期增長多來自美國以外，她認為部分是 AI 推動",
+        "Recorded Future 的 Allan Liska 提醒，這些集團正大量實驗 AI，情況可能「很快改變」"
+      ],
+      "image": "https://media.wired.com/photos/6af88e4339637940f3ecc20a/191:100/w_1280,c_limit/image%20(76).png",
+      "imageCredit": "Wired",
+      "source": {
+        "name": "Wired",
+        "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/"
+      },
+      "published": "2026-11-14T13:00:00Z"
+    }
+  ]
+}
