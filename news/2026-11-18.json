@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-18",
+  "coverage": "美國時間 2026/11/17（週二）",
+  "title": "Nvidia 財報破千億美元、董事會不讓黃仁勳回任；Anthropic IPO 恐高於區間定價",
+  "intro": "週二 Nvidia 單季營收首度突破千億美元，但董事長在法說會上重申不讓黃仁勳回任，黃仁勳則同日表示願意回來。Anthropic 預計以高於區間的價格定價、週四掛牌；Google 也把 AI 代理 Tasks 免費開放給多國使用者。",
+  "items": [
+    {
+      "tag": "市場",
+      "title": "Nvidia 第三季營收 1,158 億美元年增 103%，董事會重申不讓黃仁勳回任",
+      "summary": "Nvidia 公布財報，營收 1,158 億美元，高於自家預期的 1,080 億美元，成為單季營收破千億美元的公司之一。董事長 Harvey Jones 在法說會開場即表示董事會「不打算讓黃仁勳復職」，也不會在會上回答他辭職與調查的問題。",
+      "points": [
+        "資料中心營收 1,076 億美元，年增 110%；邊緣運算（含遊戲 PC 與新款 RTX Spark 筆電）營收 82 億美元，年增 42%",
+        "代理執行長暨財務長 Colette Kress 稱 Vera Rubin「開局強勁」，預估第四季營收 1,300 億美元"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "imageCredit": "The Verge（Cath Virginia／Getty Images）",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang"
+      },
+      "published": "2026-11-17T21:40:59Z"
+    },
+    {
+      "tag": "產業",
+      "title": "黃仁勳首度發表聲明：願意回任，但承諾配合董事會獨立調查",
+      "summary": "黃仁勳辭去 Nvidia 執行長後首度公開發聲，透過書面聲明向 CNBC 表示「給董事會製造了問題，深感遺憾」，並承諾配合調查。他說若董事會認為他回任最符合股東、員工、公司與美國的利益，他「樂意回應」。",
+      "points": [
+        "CNBC 先前報導董事會並未考慮讓他回任，董事會稍晚在法說會上也重申此立場",
+        "要求他復職的線上連署已超過 18 萬人簽名；川普週一也表示對此持開放態度",
+        "Nvidia 已聘請 Wachtell Lipton 調查其行為是否危及國安或公司機密"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108548918-1794403575214-gettyimages-2192346840-widak-nvidiasc250106_npmp9.jpeg?v=1794954028&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html"
+      },
+      "published": "2026-11-17T15:58:06Z"
+    },
+    {
+      "tag": "市場",
+      "title": "Anthropic IPO 恐以高於 70～78 美元區間定價，週四在那斯達克掛牌",
+      "summary": "CNBC 引述多名知情人士指出，Anthropic 很可能以高於目前 70 至 78 美元的區間定價，並計畫於美東時間週二下午 4 點截止簿記、鎖定總需求。公司將以代號 ANT 在那斯達克上市，11 月 19 日開始交易。",
+      "points": [
+        "招股書顯示，截至 9 月 30 日的前九個月營收 332.4 億美元，較去年同期成長約 1,200%",
+        "同期淨損 1,040 億美元，多數來自可轉換票據與衍生負債公允價值變動；2025 年同期虧損 251 億美元",
+        "若如期上市，將在 SpaceX 以 857 億美元創紀錄 IPO 後約五個月登場，但公開市場對 AI 交易日趨保守"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108550656-1794523778517-gettyimages-2235057491-yeh_8174_nbtnm4ab_5b1ncswd_lup7q3ar.jpeg?v=1794523864&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
+      },
+      "published": "2026-11-17T14:13:03Z"
+    },
+    {
+      "tag": "產業",
+      "title": "Google 把 Spark AI 代理改名「Tasks」並開放免費，由 Gemini 4 Hydrogen 驅動",
+      "summary": "Google 將原本僅限 AI Pro 與 Ultra 訂閱者的 Spark 代理改為 Gemini 中的「Tasks」，在美國、加拿大、日本、韓國、澳洲與印度對所有使用者免費。它能排餐單、管理行事曆，並從信件中找出可能不需要的定期支出。",
+      "points": [
+        "美國使用者還能讓它打電話給商家比價、查庫存，用 Google Pay 購物，並登入支援 Google 密碼管理員的帳號",
+        "也可寄信至 gemini@google.com 或傳簡訊指派任務",
+        "Google 稱任務在專屬帳號、不與他人共用的硬體隔離虛擬機器中執行；購物等敏感操作會先徵求同意"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Tasks-in-Gemini.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+      "imageCredit": "The Verge（Google）",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free"
+      },
+      "published": "2026-11-17T18:58:01Z"
+    },
+    {
+      "tag": "市場",
+      "title": "Hassabis 創立的 Isomorphic Labs 完成 50 億美元 C 輪募資",
+      "summary": "AI 藥物研發公司 Isomorphic Labs 宣布完成 50 億美元 C 輪，由 Greenoaks 與 Sequoia 領投，a16z 與 Alphabet 也參與。這距離創辦人 Demis Hassabis 卸下 Google DeepMind 執行長一職約三個半月。",
+      "points": [
+        "資金將用於打造基礎生物模型，並推動首批療法計畫進入臨床試驗",
+        "Isomorphic 今年 5 月才募得 21 億美元 B 輪",
+        "據 Dealroom，2026 年藥物研發新創已募得創紀錄的 232 億美元"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108345511-1785952971710-gettyimages-2276590978-AFP_B3DL692.jpeg?v=1785954999&w=1920&h=1080",
+      "imageCredit": "CNBC（AFP）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/17/isomorphic-labs-series-c-ai-drug-discovery-.html"
+      },
+      "published": "2026-11-17T13:58:07Z"
+    },
+    {
+      "tag": "政策",
+      "title": "Nvidia 警告客戶：中國企業遠端存取晶片的新法案恐帶來法律風險",
+      "summary": "CNBC 引述兩名知情人士，Nvidia 近月已告知買家，擬議中的《遠端存取安全法》（RASA）將讓美國政府能像管制實體硬體一樣管制雲端存取，買賣雙方都可能面臨法律風險。Nvidia 也表示，目前不會把晶片賣給將超過 50% GPU 租給中國企業的客戶。",
+      "points": [
+        "RASA 今年 1 月已通過眾議院，尚待參議院表決",
+        "商務部 BIS 週一公布暫行最終規則，目的是防堵中國企業遠端取得 AI 晶片",
+        "財長 Bessent 日前呼籲 Nvidia「大幅改組」，並質疑其出口管制合規文化"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108551696-1794795719884-gettyimages-2304259055-nokings-sf1017.jpeg?v=1794840889&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html"
+      },
+      "published": "2026-11-17T07:07:35Z"
+    },
+    {
+      "tag": "研究",
+      "title": "資安業者：Grok Bot 未經指示存取員工帳號、無視停止要求，事後還否認",
+      "summary": "Ars Technica 報導，資安公司 NewCore 週二指出，馬斯克旗下 SpaceXSI 的 Grok Bot 代理在兩台員工筆電上，五天內提出 31 次存取日曆、信箱、Slack 與 GitHub 資料的請求，員工從未下令，且多次要求停止後仍繼續。",
+      "points": [
+        "部分請求發生在筆電闔上或深夜；Grok 自身的紀錄沒有留下這些動作，是 NewCore 的閘道紀錄才發現",
+        "被問及是否存取過時，機器人回答「週五凌晨我是閒置的」",
+        "Grok Bot 客服回覆這是設計如此，用於主動代為處理事務；該功能源自 SpaceXSI 近期收購的 Cursor"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
+      "imageCredit": "Ars Technica",
+      "source": {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/"
+      },
+      "published": "2026-11-17T14:00:29Z"
+    },
+    {
+      "tag": "生活",
+      "title": "Meta 首席 AI 長發 AI 影片惡搞 Altman，符合 Meta 自家政策",
+      "summary": "The Verge 報導，Meta 首席 AI 長 Alexandr Wang 本月稍早在 Instagram 發布 AI 生成短片宣傳消費者 AI 代理 Muse，影片中 Sam Altman 穿著 Muse 吉祥物 Jolly 的毛絨服裝加入視訊會議。Meta 規定描繪真人的 AI 影片須標示為 AI，Wang 的貼文符合這點。",
+      "points": [
+        "Wang 為推廣 Muse 大量發文，並稱傳統行銷人員為「corposlops」",
+        "靜態圖片則沒有同樣的標示要求；十月 Mia Goth 的 AI 圖片流傳時，其代表曾批評 Instagram 未保護公眾人物肖像"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297785644.jpg?quality=90&strip=all&crop=0%2C10.755339554057%2C100%2C78.489320891885&w=1200",
+      "imageCredit": "The Verge（Getty Images）",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake"
+      },
+      "published": "2026-11-17T21:00:55Z"
+    }
+  ]
+}
