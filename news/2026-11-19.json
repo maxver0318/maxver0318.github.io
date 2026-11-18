@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-19",
+  "coverage": "美國時間 2026/11/18（週三）",
+  "title": "Anthropic IPO 定價 83 美元高於區間、週四掛牌；DealBook 峰會上 Altman 呼籲更謹慎、Nadella 談代理改寫網路經濟",
+  "intro": "週三 Anthropic 以每股 83 美元定價 IPO，高於 70～78 美元的預期區間，預計週四在 Nasdaq 開始交易。紐約時報 DealBook 峰會上，Altman、Nadella 與 Musk 輪番談 AI 風險、資安與 Nvidia 的黃仁勳風波。",
+  "items": [
+    {
+      "tag": "市場",
+      "title": "Anthropic IPO 定價每股 83 美元，高於預期區間，週四以「ANT」在 Nasdaq 掛牌",
+      "summary": "CNBC 引述知情人士報導，Anthropic 週三將 IPO 定價在每股 83 美元，高於先前更新的 70～78 美元區間。若 8.25 億股全數以此價賣出，將募得約 685 億美元，估值高於原先目標的 1.4 兆美元。",
+      "points": [
+        "SpaceX 6 月 IPO 初始募得 750 億美元，行使超額配售後共 857 億美元，仍是史上最大",
+        "截至 9/30 的前九個月營收 332.4 億美元、年增約 1,200%；淨虧損 1,040 億美元，多數來自可轉換票據與衍生負債的公允價值變動",
+        "Google、Microsoft、Nvidia、AMD 等同意在 IPO 中合計投資 260 億美元；OpenAI 已機密遞件，並表示 2027 年可能掛牌"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108554572-1795033463943-108554572-1795033101955-gettyimages-2305196401-ANTHROPIC_IPO.jpg?v=1795033477&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+      },
+      "published": "2026-11-18T15:15:54Z"
+    },
+    {
+      "tag": "產業",
+      "title": "DealBook 峰會：Altman 稱競賽中「該更謹慎而非更不謹慎」，OpenAI 終將成為上市公司",
+      "summary": "OpenAI 執行長 Sam Altman 在 DealBook 峰會上談到 AI 創新與公共安全的拉扯，表示「戰爭迷霧中的競賽態勢是件壞事」，現在是需要更多而非更少謹慎的時候。CNBC 另有訪談影片，標題為 Altman 說 OpenAI 計畫「在某個時間點」成為上市公司。",
+      "points": [
+        "會議背景是近期一連串大型科技服務中斷，以及 Anthropic 即將上市",
+        "OpenAI 先前已表示 2027 年可能掛牌（CNBC 報導）"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108554206-17950145891795014586-49713988610-1080pnbcnews.jpg?v=1795014588&w=1920&h=1080",
+      "imageCredit": "CNBC（NBC News）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/18/dealbook-summit-2026-live-updates.html"
+      },
+      "related": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/video/2026/11/18/openai-ceo-sam-altman-we-plan-to-be-a-public-company-at-some-point.html"
+        }
+      ]
+    },
+    {
+      "tag": "產業",
+      "title": "Nadella：AI 代理將重新洗牌網路經濟，不接納代理的平台會被對手取代",
+      "summary": "微軟執行長 Satya Nadella 在 DealBook 峰會表示，AI 代理會衝擊依賴廣告與「人類網路」流量的公司，類似當年從入口網站轉向搜尋引擎。他說廣告模式可能被迫轉向按點擊或更偏交易的模式，「如果你不接受代理，別人會接受」。",
+      "points": [
+        "談到 Amazon 封鎖 AI 代理瀏覽商品與代客購買，Nadella 認為若持續封鎖，Shopify 這類開放代理的平台可能因此受惠",
+        "他說若「愛上某個商業模式」就得趕緊調整"
+      ],
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/"
+      },
+      "published": "2026-11-18T22:58:00Z"
+    },
+    {
+      "tag": "政策",
+      "title": "Nadella 為 Outlook 近 24 小時當機道歉，並警告 AI 讓網路攻擊門檻大降",
+      "summary": "Nadella 對上週持續近 24 小時的 Outlook 故障表示「極度抱歉」，稱是潛伏的程式錯誤被觸發的「完美風暴」，微軟將檢討架構與營運面。他也說 AI 讓微軟更能找出並快速修補漏洞，但攻擊的門檻同時下降：有人只要傳 Telegram 訊息給雲端的 Artex 框架，就等於有國家級的持續攻擊者。",
+      "points": [
+        "Artex 是開源的 AI 滲透測試工具；FBI 日前警告，部分入侵可在不到三小時內從鎖定目標到攻陷（TechCrunch 11/16 報導）"
+      ],
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/18/dealbook-summit-2026-live-updates.html"
+      },
+      "related": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/"
+        }
+      ]
+    },
+    {
+      "tag": "市場",
+      "title": "Musk 與 Nadella 對黃仁勳風波表態：Musk 稱「無人能取代」，Nadella 說「給他空間」",
+      "summary": "Elon Musk 在 DealBook 峰會上遠端表示支持 Nvidia 創辦人黃仁勳，把他比作巔峰時期的麥可喬丹，認為不該在球隊連勝時把他趕下場，也不認為他對美國不忠。Nadella 則說這件事「相當悲劇」，Nvidia 董事會有權決定，並稱讚代理執行長 Colette Kress。",
+      "points": [
+        "黃仁勳在承認婚外情後辭職，報導指其中一人是疑似中國間諜的 Megaspeed 高層（CNBC 轉述）",
+        "CNBC 影片列表另顯示 Moody's 將 Nvidia 展望由正面調降為穩定"
+      ],
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/18/dealbook-summit-2026-live-updates.html"
+      }
+    },
+    {
+      "tag": "產品",
+      "title": "Snapchat 推出 Easy Lens CLI，讓開發者用 Claude Code、Cursor 等 AI 助理做 AR 濾鏡",
+      "summary": "Snapchat 週三宣布，Lens 創作者可用 Claude Code、Cursor、Codex 等 AI 程式助理建立濾鏡。創作者用白話描述想法，助理端到端完成建置、預覽、發布與成效追蹤，也能修錯並把新版傳到創作者手機。",
+      "points": [
+        "可用逾 100 個 AR 積木與 50 個 AI 素材生成器；支援 Mac、Windows、Linux",
+        "Snapchat 稱遊戲可在一天內從點子到上架，且不必寫程式；上月已付給 Lens+ 創作者 180 萬美元"
+      ],
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor"
+      },
+      "published": "2026-11-18T19:56:00Z"
+    }
+  ]
+}
