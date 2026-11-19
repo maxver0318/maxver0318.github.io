@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-20",
+  "coverage": "美國時間 2026/11/19（週四）",
+  "title": "Anthropic 以 111.50 美元開盤掛牌、較發行價高約 34%；國會公布 87.9 萬顆 AI 晶片對中核准，AMD 遭賣空報告重挫",
+  "intro": "週四 Anthropic 在 Nasdaq 以代號 ANT 掛牌，開盤價 111.50 美元，高於 83 美元的發行價。晶片政策也有大動作：眾議院外委會公布對中 AI 晶片核准文件，AMD 因賣空報告收跌 7.72%；產品面 Gemini、ChatGPT 與 Apple 都在代理與語音功能上有新進展。",
+  "items": [
+    {
+      "tag": "市場",
+      "title": "Anthropic 在 Nasdaq 掛牌，開盤價 111.50 美元，較 83 美元發行價高出約 34%",
+      "summary": "The Verge 報導，Anthropic 週四以代號「ANT」在 Nasdaq 開始交易，開盤價每股 111.50 美元，高於 83 美元的 IPO 發行價。CNBC 先前報導此次共募得約 813 億美元，超越 SpaceX 6 月創下的紀錄。",
+      "points": [
+        "據 CNBC，完全稀釋後市值約 1.5 兆美元",
+        "S-1 文件顯示今年上半年營收 163 億美元、淨虧損 807 億美元，Anthropic 表示多數來自不反映營運的會計項目",
+        "Amodei 在 Nasdaq 表示，將依安全性信心調整 AI 訓練與部署節奏，「不會屈服於商業或政治壓力」（Reuters 引述）"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305334560.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200",
+      "imageCredit": "The Verge（Michael Nagle／Bloomberg via Getty Images）",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq"
+      },
+      "published": "2026-11-19T16:52:01Z"
+    },
+    {
+      "tag": "政策",
+      "title": "眾議院外委會公布文件：商務部已核准逾 87.9 萬顆 AI 晶片銷往中國企業",
+      "summary": "眾議院外交事務委員會週四公布文件，顯示商務部工業與安全局截至 2026 年 5 月，已核准對阿里巴巴、騰訊等中國企業銷售逾 87.9 萬顆 AI 晶片。部分核准對象被國防部列為「中國軍事企業」。",
+      "points": [
+        "委員會表示，去年 12 月到今年 5 月間共有 340 萬顆 Nvidia 與 AMD 晶片的銷售申請",
+        "民主黨資深議員 Meeks 批評 BIS 未落實規範，國會須嚴格監督",
+        "商務部、AMD 與 Nvidia 未立即回應置評"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108555825-1795118102467-gettyimages-2304282548-mast_360_111026.jpeg?v=1795118157&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
+      },
+      "published": "2026-11-19T19:55:41Z"
+    },
+    {
+      "tag": "晶片",
+      "title": "AMD 因賣空機構報告重挫 7.72%，公司否認指控",
+      "summary": "投資機構 Hunterbrook Media 發表報告，指稱 AMD「有自己的中國問題」並揭露持有空頭部位，AMD 週四收盤下跌 7.72% 至 489.19 美元。AMD 發言人表示報告「曲解公司的業務做法與關係」，並強調遵守美國出口管制。",
+      "points": [
+        "報告稱，中國伺服器廠 IEIT 被列入黑名單後仍持續取得較新的 AMD 韌體",
+        "報告另稱 AMD 超過 20% 營收開給中國與香港客戶",
+        "CNBC 表示未獨立查證這些說法"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108475785-1793209626528-gettyimages-2298419069-SKOREA_AMD.jpeg?v=1793209658&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html"
+      },
+      "published": "2026-11-19T16:24:53Z"
+    },
+    {
+      "tag": "併購",
+      "title": "Palo Alto Networks 以 45 億美元收購 Applied Compute，跨入開放權重模型安全",
+      "summary": "Palo Alto Networks 公布財報同時宣布以 45 億美元收購 Applied Compute，這家新創協助訓練客製化的開放權重模型。公司預期該交易到 2029 會計年度可替新一代安全業務增加逾 10 億美元的年度經常性收入。",
+      "points": [
+        "第一季營收年增 39%、優於預期，並上調全年財測；股價週四上漲約 6%",
+        "CEO Arora 說要成為「提供安全運算與資安能力」的單一廠商",
+        "CNBC 指出這是 Arora 一連串併購中，明顯跨出資安本業的一步"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108225094-1762984988923-gettyimages-2223462897-FRANCE_RAISE_SUMMIT.jpeg?v=1762985076&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html"
+      },
+      "published": "2026-11-19T16:28:06Z"
+    },
+    {
+      "tag": "產品",
+      "title": "Gemini macOS 版新增電腦操作功能，可跨本機檔案、桌面 App 與網頁執行多步驟任務",
+      "summary": "Google 表示，Gemini macOS App 現可代為處理跨本機檔案、桌面應用與網頁的多步驟任務，例如填表單、製作簡報、上架商品。功能即日起以英文向美國用戶推出。",
+      "points": [
+        "使用者可決定 Gemini 能存取哪些 App，並透過獨立背景視窗即時預覽操作",
+        "Apple 在本週 macOS 27.3 測試版預覽了針對「完整磁碟存取」App 的新限制，原因是 AI 代理的潛在風險"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/M6_MBP_hero2.jpg?quality=90&strip=all&crop=0%2C10.738463156834%2C100%2C78.523073686333&w=1200",
+      "imageCredit": "The Verge（Nathan Edwards）",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use"
+      },
+      "published": "2026-11-19T18:21:13Z"
+    },
+    {
+      "tag": "產品",
+      "title": "ChatGPT 推出 Live Dictation，邊說邊轉文字並取消 10 分鐘錄音上限",
+      "summary": "OpenAI 為 ChatGPT 加入 Live Dictation，說話同時即時產生逐字稿，不必等錄音結束。功能即日起在所有方案的網頁、桌面與 iOS／Android App 全球推出。",
+      "points": [
+        "使用者可點選音訊波形查看即時文字，結束後在輸入框編輯",
+        "語音聽寫的 10 分鐘錄音上限取消，OpenAI 稱可靠度也提升"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/chatgpt-live-dictation-promo-screenshot.jpeg?quality=90&strip=all&crop=8.4734375%2C20.737347294939%2C85.1578125%2C79.262652705061&w=1200",
+      "imageCredit": "The Verge（OpenAI）",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation"
+      },
+      "published": "2026-11-19T15:16:45Z"
+    },
+    {
+      "tag": "產品",
+      "title": "Apple 徵才打造自家 AI 代理，可瀏覽網頁、跨 App 作業並呼叫服務",
+      "summary": "The Verge 引述 Bloomberg 發現的職缺，Apple 正尋找工程師主導打造代理式 AI 助理，能瀏覽網頁、跨 App 作業、寫程式與呼叫服務。該職位將與 Siri、UI Frameworks 及 Apple Foundation Models 團隊密切合作。",
+      "points": [
+        "Apple 在 9 月開始推出 AI 升級版 Siri",
+        "Bloomberg 報告指 Apple 可能讓 Siri 具備旋轉、裁切照片或整理 Safari 分頁等能力"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&strip=all&crop=0%2C10.628272251309%2C100%2C78.743455497382&w=1200",
+      "imageCredit": "The Verge（Allison Johnson）",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+      },
+      "published": "2026-11-19T22:31:41Z"
+    },
+    {
+      "tag": "產品",
+      "title": "Google 首頁加入 AI 對話側邊欄，可檢視並延續 AI Mode 搜尋紀錄",
+      "summary": "Google 產品副總 Robby Stein 在 X 上展示，Google 首頁現可展開可收合的側邊欄，列出過去的 AI Mode 搜尋，並能開新對話串、搜尋紀錄或連接 Gemini Notebook。",
+      "points": [
+        "The Verge 指出這是 Google 首頁又一次大改版",
+        "5 月 Google 已將搜尋框改為可容納較長查詢並加入 AI 自動完成"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "imageCredit": "The Verge",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats"
+      },
+      "published": "2026-11-19T20:05:06Z"
+    }
+  ]
+}
