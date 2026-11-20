@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-21",
+  "coverage": "美國時間 2026/11/20（週五）",
+  "title": "AI 賣壓擴大：Anthropic 上市次日收跌 8.5%、Nvidia 傳遭 SEC 調查重挫，Nasdaq 抹去今年漲幅",
+  "intro": "週五美股 AI 類股全面重挫，Anthropic 上市第二天收 88.30 美元、跌 8.5%，Nvidia 因傳遭 SEC 調查跌逾 12%，道瓊與 S&P 500 進入修正、Nasdaq 轉為今年下跌。產品面則有 OpenAI Dots 擴大測試與 Gemini Mac 版電腦操作。因當天以市場新聞為主，本期收 7 則。",
+  "items": [
+    {
+      "tag": "市場",
+      "title": "Anthropic 上市第二天收跌 8.5%，收 88.30 美元，一度逼近 83 美元發行價",
+      "summary": "CNBC 報導，Anthropic（ANT）週五在首個完整交易日下跌 8.5%，因市場對 AI 交易的疑慮持續拖累科技股。週四開盤 111.50 美元、收 97.17 美元，週五盤中最低觸及 83.05 美元，收盤 88.30 美元，僅略高於 83 美元的發行價。",
+      "points": [
+        "募資 813 億美元，為史上最大 IPO；週四收盤市值約 1.8 兆美元，為美國第七大上市公司（CNBC）",
+        "財政部長 Bessent 週五接受 CNBC 訪問稱 Anthropic 是「只有美國才有的故事」，並說其共同創辦人之一將在數週內向「川普帳戶」捐出大額款項",
+        "Seaport 給予中立評等，William Blair 給予優於大盤；分析師對估值與成長看法分歧"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108556066-1795129874503-108556066-1795129228984-gettyimages-2305354070-ANTHROPIC_IPO.jpeg?v=1795144010&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html"
+      },
+      "related": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html"
+        }
+      ]
+    },
+    {
+      "tag": "市場",
+      "title": "AI 賣壓擴大：道瓊與 S&P 500 進入修正、Nasdaq 抹去今年漲幅，VIX 升破 30",
+      "summary": "CNBC 報導，Anthropic IPO 與 Nvidia 財報都沒能如市場所望重啟 AI 行情，週五幾乎沒有類股倖免。道瓊與 S&P 500 同告進入修正，Nasdaq 綜合指數抹去 2026 年漲幅，恐慌指數 VIX 升破 30，為 3 月以來高點。",
+      "points": [
+        "S&P 500 的相對強弱指標跌破 30，顯示超賣；市場正評估是否接近底部",
+        "下週焦點為通膨數據，市場擔心聯準會下次會議可能升息 2 碼（半個百分點）",
+        "年底前還有 12/9 聯準會會議、黃仁勳的國會聽證與政府關門風險"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108556581-1795192669225-gettyimages-2305487800-US_STOCKS.jpeg?v=1795192710&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/20/stock-market-next-week-outlook-for-nov-23-27-2026.html"
+      },
+      "published": "2026-11-20T20:23:00Z"
+    },
+    {
+      "tag": "晶片",
+      "title": "Nvidia 傳遭 SEC 調查會計做法，股價重挫逾 12%、連跌趨勢延續",
+      "summary": "CNBC 引述路透報導，美國證券監管機關正調查 Nvidia 的會計做法，使其週五跌勢加劇，盤中跌幅一度近 10%，下午擴大至約 12%。AMD 同日也重挫逾 13%。",
+      "points": [
+        "Nvidia 自 11 月 12 日黃仁勳辭任 CEO 起股價持續下挫，11 月迄今累計下跌約三成（CNBC 盤中報導）",
+        "Micron、Sandisk、CoreWeave 等 AI 建置概念股同步大跌",
+        "此為路透引述知情人士的報導，Nvidia 與 SEC 尚未在 CNBC 報導中證實調查細節"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108470598-17931333942026-10-26t203636z_273947229_rc28boae0ddl_rtrmadp_0_anthropic-ipo.jpeg?v=1793133420&w=1920&h=1080",
+      "imageCredit": "CNBC（路透）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/20/stocks-moving-the-most-today-live-updates.html"
+      },
+      "related": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/investingclub/2026/11/20/ai-rout-wipes-out-nasdaqs-2026-gains-alphabet-is-a-tech-bright-spot.html"
+        }
+      ],
+      "published": "2026-11-20T12:16:48Z"
+    },
+    {
+      "tag": "市場",
+      "title": "Anthropic 首日光環消退：分析師說估值焦慮才剛開始",
+      "summary": "CNBC 訪問 Renaissance Capital 等機構人士，指出 IPO 本身相當成功，但 AI 估值與泡沫疑慮因 Anthropic 掛牌而更加凸顯。Tema ETFs 認為 AI 需求仍在，但市場正重新評估報酬。",
+      "points": [
+        "Renaissance Capital 的 Marquez 稱它「估值很高」，新股更難定價",
+        "Tema 的 Khodjamirian：在波動劇烈的市場完成大型 IPO 本身就是成就，但「超額認購」的說法應保持懷疑",
+        "不少機構客戶選擇先降低風險、觀望更多資訊"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108556065-1795129225164-gettyimages-2305353821-ANTHROPIC_IPO.jpeg?v=1795129353&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html"
+      }
+    },
+    {
+      "tag": "產品",
+      "title": "OpenAI 開始讓 ChatGPT Plus 小範圍測試 Dots 個人代理",
+      "summary": "Engadget 報導，OpenAI 先前僅向 Pro 以上方案開放的 Dots（主動、常駐的 AI 代理）開始在 20 美元月費的 ChatGPT Plus 小範圍測試，ChatGPT Business Standard 用戶則從週五起全面可用。",
+      "points": [
+        "據 Engadget，Dots 可透過 OpenAI 外掛生態系與逾 4,000 個應用互動",
+        "可在無人監督下持續推進任務，也能連接用戶電腦代為操作",
+        "高階方案中與 Dots 的對話不計入一般使用上限"
+      ],
+      "image": "https://www.engadget.com/img/gallery/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/l-intro-1795158872.jpg",
+      "imageCredit": "Engadget（Evolf／Shutterstock）",
+      "source": {
+        "name": "Engadget",
+        "url": "https://www.engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/"
+      },
+      "published": "2026-11-20T07:31:25Z"
+    },
+    {
+      "tag": "產品",
+      "title": "Google Gemini Mac 版加入「電腦操作」，可在背景視窗代辦重複性工作",
+      "summary": "Engadget 報導，Gemini 的 Mac App 現在也能使用 Computer Use：透過螢幕截圖看畫面，並自動點擊、輸入、捲動來操作程式與網站。任務在背景視窗執行，不會接管使用者的螢幕或游標。",
+      "points": [
+        "只能操作使用者授權的 App，關鍵動作會請求核准",
+        "Google 舉例：批次在 eBay 上架、填寫本機 PDF 表單、把手繪草圖轉成 3D 模型",
+        "此功能原本已在 PC 版提供"
+      ],
+      "image": "https://www.engadget.com/img/gallery/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/l-intro-1795178098.jpg",
+      "imageCredit": "Engadget（Google）",
+      "source": {
+        "name": "Engadget",
+        "url": "https://www.engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/"
+      },
+      "published": "2026-11-20T12:36:11Z"
+    },
+    {
+      "tag": "產品",
+      "title": "Nothing 宣布 12 月 8 日發表無螢幕「AI 原生裝置」",
+      "summary": "Engadget 報導，Nothing 週五表示將於 12 月 8 日正式發表一款「沒有新螢幕、無法以 App 形式實現體驗」的 AI 原生裝置。外流照片顯示裝置至少帶有一顆鏡頭。",
+      "points": [
+        "照片來自 Swedish House Mafia 成員 Ingrosso 的貼文，Engadget 認為很可能是行銷操作",
+        "Engadget 提醒 AI 硬體過往成績不佳，例如 Humane 已倒閉"
+      ],
+      "image": "https://www.engadget.com/img/gallery/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/l-intro-1795195811.jpg",
+      "imageCredit": "Engadget（Nothing）",
+      "source": {
+        "name": "Engadget",
+        "url": "https://www.engadget.com/2323187/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/"
+      },
+      "published": "2026-11-20T17:32:02Z"
+    }
+  ]
+}
