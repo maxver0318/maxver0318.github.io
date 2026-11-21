@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-22",
+  "coverage": "美國時間 2026/11/21（週六）",
+  "title": "Anthropic 史上最大 IPO 撞上科技股 2020 年以來最慘一週；Signal 限制手機截圖防 AI 代理",
+  "intro": "週六美股休市、AI 新聞以週末分析與專題為主。CNBC 回顧本週：Anthropic 募資 935 億美元掛牌，Nvidia 單週重挫 23%、Nasdaq 週跌 10%；另有 Signal 因 AI 代理限制截圖、AI 分身微短劇與簡訊 AI 代理的整理。因週末新聞較少，本期收 4 則。",
+  "items": [
+    {
+      "tag": "市場",
+      "title": "Anthropic 史上最大 IPO 撞上華爾街 2020 年以來最慘的一週：Nvidia 週跌 23%、Nasdaq 週跌 10%",
+      "summary": "CNBC 週六報導，Anthropic 週四在 Nasdaq 掛牌，IPO 募得 935 億美元，另有科技巨頭以發行價認購 260 億美元，市值一度達 1.8 兆美元；但同一週 AI 類股重挫。Anthropic 週四開盤 111.50 美元，週五收 88.91 美元。",
+      "points": [
+        "Nvidia 單週重挫 23%，為 18 年來最大單週跌幅，連續下跌週數為 2008 年以來最長；Nasdaq 週跌 10%，為 2020 年初以來最差的一週（CNBC）",
+        "Anthropic 完全稀釋後市值約 1.6 兆美元，僅次於 Apple、Microsoft、Alphabet、Nvidia、Amazon 與 SpaceX",
+        "Anthropic 表示第三季每花 1 美元運算成本可產生 1.72 美元營收，去年同期為 0.68 美元；截至 9 月累計募得 1,410 億美元私募資金",
+        "創投業受益：Menlo 與 Lightspeed 在發行價下各持有約 250 億美元的 Anthropic 股票，Bessemer 約 100 億美元"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108555254-1795098552302-gettyimages-2305298530-AFP_D7ZG87P.jpeg?v=1795137591&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images／Charly Triballeau, AFP）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html"
+      },
+      "published": "2026-11-21T13:00:01Z"
+    },
+    {
+      "tag": "產品",
+      "title": "Signal 限制手機版截圖，總裁稱作業系統內建 AI 代理是「生存威脅」",
+      "summary": "TechCrunch 報導，Signal 宣布在 Android 與 iOS 版限制截圖。總裁 Meredith Whittaker 表示，Windows、Android 與 macOS／iOS 讓 AI 代理能「掃描」螢幕內容，削弱了 Signal 獨立保障隱私的能力。",
+      "points": [
+        "Whittaker 指出敏感資料可能被存進作業系統層級代理所使用的本機資料庫或遠端伺服器，不受 Signal 控制，也會波及對話中的其他人",
+        "Signal 的 Windows 版原本就預設封鎖截圖，這次擴及行動版；使用者可關閉，但她說這會「破壞我們的隱私保證」",
+        "Whittaker 也承認此做法並不完整，無法涵蓋代理存取 App 資料的其他隱蔽途徑"
+      ],
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+      },
+      "published": "2026-11-21T21:37:00Z"
+    },
+    {
+      "tag": "生活",
+      "title": "出售自己的 AI 臉孔授權：微短劇新創 Shortical 推出全 AI 影集",
+      "summary": "TechCrunch 報導，微短劇平台 Shortical 上週在洛杉磯首映全 AI 製作的影集《Inevitable》，由以色列演員 Aki Avni 授權臉孔做成數位分身。平台打出「LICENSE YOUR FACE」，但目前尚未透過平台簽下任何合約。",
+      "points": [
+        "Shortical 去年 1 月成立，每集約 2 分鐘，每部前 7～10 集免費；執行長 Guy Shimoni 稱 AI 讓小團隊也能做出「電影規模」製作",
+        "公司不願透露酬勞；Rest of World 報導中國業者為一個肖像付費 15 至 700 美元",
+        "顧問 Jennifer Cooper 認為 AI 已讓微短劇的人力工作「大幅萎縮」"
+      ],
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood"
+      },
+      "published": "2026-11-21T16:00:00Z"
+    },
+    {
+      "tag": "產品",
+      "title": "住在簡訊裡的 AI 代理成新戰場：Instinct 今年 9 月以 100 億美元估值募資 10 億美元",
+      "summary": "TechCrunch 整理了約 25 款可像聯絡人一樣傳訊息指派任務的 AI 代理，涵蓋排程、訂位與購物。其中 Instinct 於 2026 年 9 月以 100 億美元估值募得 10 億美元，先前曾以 25 億美元估值募得 3.5 億美元，目前仍為封閉測試。",
+      "points": [
+        "定價從 Ask Proxy 每日 1 美元、Ohai 每月 9.99 美元起，到 Martin 每月 21 美元不等",
+        "Town 完成 5,500 萬美元 A 輪（a16z 與 Forerunner 領投）；Tab 以 3 億美元估值走出隱身；Poke 被 Cognition 收購，金額為低 9 位數美元"
+      ],
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages"
+      },
+      "published": "2026-11-21T17:00:00Z"
+    }
+  ]
+}
