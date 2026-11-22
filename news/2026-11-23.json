@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-23",
+  "coverage": "美國時間 2026/11/22（週日）",
+  "title": "OpenAI 首席科學家提議用「困惑度」為 AI 發展設速限；資料中心成為科技反彈的核心",
+  "intro": "週日美國新聞量少，本期收 3 則，皆來自 TechCrunch 週末報導：OpenAI 首席科學家 Jakub Pachocki 發表文章，主張以困惑度（perplexity）作為各家 AI 公司共同的「速度」衡量標準；記者 Paris Marx 談新書《Hyperscale》與資料中心引發的民怨；以及 TechCrunch Mobility 整理拉斯維加斯成為真人與自駕車叫車的真實對照實驗。",
+  "items": [
+    {
+      "tag": "政策",
+      "title": "OpenAI 首席科學家提議以「困惑度」衡量並限制 AI 發展速度",
+      "summary": "TechCrunch 報導，OpenAI 首席科學家 Jakub Pachocki 在 openai.com 發表文章，探討如何為 AI 發展設限，主張要先對「速度」有共同的衡量方式。OpenAI 執行長 Sam Altman 形容這是「OpenAI 近來發表過最重要的文章」。",
+      "points": [
+        "Pachocki 認為著重下游能力的基準測試很快就會過時，困惑度（模型預測下一個 token 的平均準確度，越低越好）則一直具參考價值",
+        "文章指出 GPT-4 的困惑度約 0.91，已能有效運用思維鏈推理；如今損失已低於 0.8，並在資安與數學等領域出現「變革性能力」",
+        "他主張各家公司可承諾在「理解與監控 AI 行為的能力達到某個具體里程碑」之前，不讓模型越過某個困惑度門檻",
+        "背景是 Anthropic 執行長 Dario Amodei 先前提出「放慢前沿發展」（pace the frontier）的計畫，TechCrunch 稱 Altman 與 Elon Musk 似乎表態支持"
+      ],
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+      },
+      "published": "2026-11-22T21:14:00Z"
+    },
+    {
+      "tag": "產業",
+      "title": "為何資料中心成為科技業反彈的中心？記者 Paris Marx 談新書《Hyperscale》",
+      "summary": "TechCrunch 週日刊出對記者 Paris Marx 的訪談。他的新書《Hyperscale》探討資料中心與生成式 AI；報導指出資料中心引發的反彈，似乎也助長了近期期中選舉的「藍色浪潮」。",
+      "points": [
+        "Marx 稱這波建設「根本上不可持續」，並指資料中心之所以成為箭靶，是因為它「非常實體、非常具體」；反對聲浪跨黨派，例如 Ron DeSantis 與 Bernie Sanders 都表示反對",
+        "他舉三個案例：智利聖地牙哥一帶 Google 與 Microsoft 資料中心的用水疑慮、愛爾蘭資料中心耗掉全國逾 20% 電力（電網業者 2022 年對都柏林地區暫停併網）、美國奧勒岡州 The Dalles 市 Google 揭露用掉該市 29% 的水",
+        "Marx 表示 Microsoft、Amazon 與 OpenAI 宣布不再對地方政府使用保密協議，但他認為「差別不大」，是對反對聲浪的回應",
+        "他強調問題在規模而非資料中心本身，並指民調顯示民眾看不到生成式 AI 的好處"
+      ],
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
+      },
+      "published": "2026-11-22T18:08:00Z"
+    },
+    {
+      "tag": "產品",
+      "title": "拉斯維加斯成為人類司機與無人計程車的真實 A/B 測試場",
+      "summary": "TechCrunch Mobility 電子報指出，Zoox 無人計程車已上線 Uber App（拉斯維加斯），Waymo 則再度讓無人計程車暫時退出高速公路。德州 Tesla 登記的 Robotaxi 數量已超過 Waymo，為 1,507 輛對 1,345 輛，但作者認為以商業無人駕駛里程衡量，Waymo 仍領先。",
+      "points": [
+        "Uber 乘客目前還不能直接指定 Zoox，只能拒絕；Uber 執行長 Dara Khosrowshahi 在第三季財報會議上說，待供應與可靠度提升後會推出專屬自駕選項",
+        "拉斯維加斯將成為美國首個在 Uber 上同時有兩家全無人駕駛夥伴（Zoox 與現代旗下 Motional）的城市",
+        "Tesla 開放個人使用的 Cybercab 預購，價格 29,990 美元，另加每月 299 美元費用，但交車城市與營運範圍有限",
+        "據《華爾街日報》，GM 正透過獵頭公司物色接替執行長 Mary Barra 的人選，GM 未置評"
+      ],
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/"
+      },
+      "published": "2026-11-22T17:06:00Z"
+    }
+  ]
+}
