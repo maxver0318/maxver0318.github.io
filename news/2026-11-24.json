@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-24",
+  "coverage": "美國時間 2026/11/23（週一）",
+  "title": "黃仁勳復任 Nvidia 執行長，那斯達克單日暴漲 6.51%；Amazon 以 75 億美元吸納 Decart、Anthropic 推出 Claude Ship",
+  "intro": "美國週一最大的事是 Nvidia 宣布執行長黃仁勳復職，帶動前週重挫的 AI 類股大反彈。此外，Amazon 宣布買下 Decart 的技術並延攬創辦團隊、Anthropic 推出可自動審查與核准程式碼變更的 Claude Ship，Google 也擴大搜尋 AI 模式的個人化功能。本期收 4 則。",
+  "items": [
+    {
+      "tag": "市場",
+      "title": "黃仁勳復任 Nvidia 執行長，Nvidia 單日大漲 31%、那斯達克暴漲 6.51%",
+      "summary": "CNBC 報導，Nvidia 週一早上宣布黃仁勳復任執行長，股價單日上漲 31.48%，單日回補近 1 兆美元市值，為 2003 年 5 月以來最佳單日表現。那斯達克綜合指數上漲 6.51%，是 2025 年 4 月 9 日以來最大單日漲幅，扭轉前一週 AI 類股重挫的走勢。",
+      "points": [
+        "黃仁勳 11 月 12 日辭去執行長職務；CNBC 指出，Nvidia 過去一個月股價下跌逾 40%，其間媒體陸續報導他的多起婚外情，其中一人據報被美國情報部門認為是中國間諜",
+        "Alphabet 漲 6.34%、Meta 漲 6.55%、Amazon 漲 3.47%、Microsoft 漲 1.65%；Arm 漲 16.08%、AMD 漲 6.85%，Dell 與 Micron 各漲 20.46%、19.04%",
+        "Anthropic 上市第三個交易日股價下跌 1.43%；該公司 IPO 募得創紀錄的 935 億美元，週四首日上漲 17%，週五收跌 8.5%",
+        "川普在 CNBC 表示，他直接與 Nvidia 董事會溝通並「說服」董事會讓黃仁勳復職，也坦言上週的股市重挫「很可能」影響了他的支持",
+        "TechCrunch 報導，黃仁勳週一回到公司總部時有數百名員工鼓掌歡迎，他對員工說：「謝謝大家給我第二次機會……我會成為更好的執行長。」"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108556476-1795186493317-gettyimages-2305372520-AFP_D8394NF.jpeg?v=1795186549&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html"
+      },
+      "related": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq"
+        }
+      ],
+      "published": "2026-11-23T09:17:42Z"
+    },
+    {
+      "tag": "併購",
+      "title": "Amazon 買下 Decart 技術、延攬創辦團隊，傳價碼 75 億美元，為銷售 Trainium 晶片鋪路",
+      "summary": "Amazon 週一在部落格宣布，將買下以色列新創 Decart 的專有技術，並聘請其三位創辦人與 AI 研究人員、工程師。多家媒體引述知情人士指出價碼為 75 億美元，Amazon 未對金額置評，且交易須經主管機關核准。",
+      "points": [
+        "Decart 成立於 2023 年，最知名的是 Decart Optimization Stack（DOS），可讓開發者的 AI 模型在不同晶片間快速切換，在 Nvidia、Amazon 與 Google 硬體上更有效率地運行",
+        "Amazon 資深副總裁 Peter DeSantis 表示：「AI 的每一次躍進，都始於讓每顆晶片發揮更大效能。」",
+        "CNBC 指出，Amazon CEO Andy Jassy 上個月說，Trainium 晶片預計在「2027 年底」首度對外提供；這類「反向收購人才」交易（reverse acquihire）近年在大型科技公司間很常見，部分案例受到監管關注",
+        "Bloomberg 報導，Anthropic 曾考慮收購 Decart 並做過盡職調查，但最終放棄"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108217403-1769610896097-108217403-1761591014974-gettyimages-2233522650-298621final.jpg?v=1773149071&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/23/amazon-decarts-ai-acquisition.html"
+      },
+      "related": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+        }
+      ],
+      "published": "2026-11-23T18:23:55Z"
+    },
+    {
+      "tag": "產品",
+      "title": "Anthropic 推出 Claude Ship：AI 代理可審查、修正並核准程式碼變更",
+      "summary": "TechCrunch 報導，Anthropic 週一發表 Claude Ship，是一組自動化程式碼審查、修復與例行變更核准的 AI 代理，針對 AI 產出程式碼增加後「審查與核准」成為瓶頸的問題。其中可依團隊政策自動核准變更的代理是最受矚目之處。",
+      "points": [
+        "Code Review 已全面開放；PR Steward（處理失敗的 CI 檢查、合併衝突與審查意見，並在每次推送後說明改了什麼與如何回復）與 Claude Approvals 為 beta",
+        "Claude Approvals 依團隊以自然語言寫在儲存庫檔案中的核准政策運作，Anthropic 建議先以「僅觀察」模式試跑",
+        "團隊可選擇審查強度（Quick／Standard／Deep）、設定每月花費上限，並決定哪些變更要升級給人類處理",
+        "目前推出給 Claude Team 與 Enterprise 方案，僅支援 GitHub 儲存庫"
+      ],
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+      },
+      "published": "2026-11-23T22:05:00Z"
+    },
+    {
+      "tag": "產品",
+      "title": "Google 搜尋 AI 模式的「個人智慧」擴及 Drive、Wallet 與 Gemini app",
+      "summary": "Google 週一宣布，擴大搜尋 AI 模式中的 Personal Intelligence，新增 Google Drive、Google Wallet 與 Gemini app 的整合；先前已可連結 Gmail、Google 日曆與 Google 相簿。連結為選用，使用者可隨時開關。",
+      "points": [
+        "Wallet：可協助追蹤財務目標、減少日常開銷與善用信用卡回饋，但 AI 模式只能讀取帳戶資訊，無法移動或管理資金",
+        "Drive：可從分散的文件與試算表整理專案或重大決定所需資訊，Google 舉例為報稅季的客製化規劃",
+        "Gemini app 與 AI 模式之間的脈絡雙向共享，使用者不必重新開始",
+        "Google 表示不久後會在回答下方加入「個人化」圖示，讓使用者看到 AI 模式使用了哪些脈絡"
+      ],
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/"
+      },
+      "published": "2026-11-23T19:14:00Z"
+    }
+  ]
+}
