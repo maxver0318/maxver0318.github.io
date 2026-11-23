@@ -24,6 +24,9 @@
         html { scroll-behavior: smooth; }
         .transition-all { transition: all 0.3s ease; }
         .news-card { scroll-margin-top: 8rem; }
+        .cal-pop { transform: translateX(-50%); }
+        .cal-pop.open { animation: calIn .18s ease-out; }
+        @keyframes calIn { from { opacity: 0; transform: translate(-50%, -6px) scale(.98); } to { opacity: 1; transform: translate(-50%, 0) scale(1); } }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100 font-sans transition-all">
@@ -59,10 +62,49 @@
                 <button id="prevIssue" class="shrink-0 w-10 h-10 rounded-xl flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-30 disabled:hover:bg-transparent transition-colors" aria-label="前一期">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
                 </button>
-                <label class="flex-1 min-w-0">
-                    <span class="sr-only">選擇日期</span>
-                    <select id="issueSelect" class="w-full bg-transparent font-semibold text-center py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer truncate"></select>
-                </label>
+                <div id="datePicker" class="relative flex-1 min-w-0">
+                    <button id="dateTrigger" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="calPop" class="w-full flex items-center justify-center gap-3 px-2 py-1 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 transition-colors">
+                        <span class="sr-only">選擇日期：</span>
+                        <!-- 撕頁日曆小圖 -->
+                        <span class="shrink-0 w-11 rounded-lg overflow-hidden text-center bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-600 shadow-sm" aria-hidden="true">
+                            <span id="tileMonth" class="block bg-gradient-to-r from-blue-600 to-indigo-500 text-white text-[10px] font-bold leading-4 tracking-widest">—</span>
+                            <span id="tileDay" class="block text-lg font-bold leading-7 tabular-nums">--</span>
+                        </span>
+                        <span class="min-w-0 text-left">
+                            <span class="flex items-center gap-2">
+                                <span id="trigDate" class="font-bold tabular-nums truncate">載入中</span>
+                                <span id="trigLatest" class="hidden shrink-0 px-1.5 py-0.5 rounded-md bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300 text-[10px] font-bold">最新</span>
+                            </span>
+                            <span id="trigSub" class="block text-xs text-slate-500 truncate"></span>
+                        </span>
+                        <svg id="trigChevron" class="shrink-0 w-4 h-4 text-slate-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+
+                    <!-- 月曆彈出框 -->
+                    <div id="calPop" role="dialog" aria-label="選擇日期" class="cal-pop hidden absolute left-1/2 top-full mt-3 z-40 w-[19rem] max-w-[calc(100vw-2rem)] p-4 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl shadow-2xl shadow-slate-900/10">
+                        <div class="flex items-center justify-between mb-3">
+                            <button id="calPrev" type="button" class="w-8 h-8 rounded-lg flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-30 disabled:hover:bg-transparent" aria-label="上個月">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                            </button>
+                            <p id="calTitle" class="font-bold tabular-nums"></p>
+                            <button id="calNext" type="button" class="w-8 h-8 rounded-lg flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-30 disabled:hover:bg-transparent" aria-label="下個月">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                            </button>
+                        </div>
+                        <div class="grid grid-cols-7 text-center text-[11px] font-semibold text-slate-400 mb-1" aria-hidden="true">
+                            <span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span>
+                        </div>
+                        <div id="calGrid" class="grid grid-cols-7 gap-1"></div>
+                        <div class="mt-3 pt-3 border-t border-slate-100 dark:border-slate-700 min-h-[3.5rem]">
+                            <p id="calPeekDate" class="text-xs font-bold text-blue-500 tabular-nums"></p>
+                            <p id="calPeekTitle" class="text-sm leading-snug mt-0.5 line-clamp-2"></p>
+                        </div>
+                        <div class="mt-2 flex items-center justify-between text-[11px] text-slate-500">
+                            <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span>有出刊</span>
+                            <button id="calLatest" type="button" class="font-semibold text-blue-600 dark:text-blue-400 hover:underline">跳到最新一期 →</button>
+                        </div>
+                    </div>
+                </div>
                 <button id="nextIssue" class="shrink-0 w-10 h-10 rounded-xl flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-30 disabled:hover:bg-transparent transition-colors" aria-label="後一期">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                 </button>
@@ -126,7 +168,8 @@
         const fmtTaipei = (iso) => new Intl.DateTimeFormat('zh-TW', { timeZone: 'Asia/Taipei', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(iso));
 
         let issues = [];
-        const select = document.getElementById('issueSelect');
+        let current = null;      // 目前顯示的期別日期
+        let calMonth = null;     // 月曆目前顯示的月份 'YYYY-MM'
         const prevBtn = document.getElementById('prevIssue');
         const nextBtn = document.getElementById('nextIssue');
         const issueEl = document.getElementById('issue');
@@ -214,7 +257,8 @@
         async function showIssue(date, { scroll = false } = {}) {
             const idx = issues.findIndex(x => x.date === date);
             if (idx < 0) return showIssue(issues[0].date);
-            select.value = date;
+            current = date;
+            updateTrigger(idx);
             prevBtn.disabled = idx >= issues.length - 1;   // 清單由新到舊
             nextBtn.disabled = idx <= 0;
             if (location.hash.slice(1) !== date) history.replaceState(null, '', `#${date}`);
@@ -250,22 +294,105 @@
                 issueEl.replaceChildren(make('p', 'text-rose-500 py-12 text-center', '電子報清單載入失敗，請稍後再試。'));
                 return;
             }
-            select.replaceChildren(...issues.map((x, i) => {
-                const o = make('option', '', `${fmtDate(x.date)}${i === 0 ? ' · 最新' : ''}`);
-                o.value = x.date;
-                return o;
-            }));
             renderArchive();
             showIssue(location.hash.slice(1) || issues[0].date);
         }
 
-        select.addEventListener('change', () => showIssue(select.value));
-        prevBtn.addEventListener('click', () => { const i = issues.findIndex(x => x.date === select.value); if (i < issues.length - 1) showIssue(issues[i + 1].date); });
-        nextBtn.addEventListener('click', () => { const i = issues.findIndex(x => x.date === select.value); if (i > 0) showIssue(issues[i - 1].date); });
+        prevBtn.addEventListener('click', () => { const i = issues.findIndex(x => x.date === current); if (i < issues.length - 1) showIssue(issues[i + 1].date); });
+        nextBtn.addEventListener('click', () => { const i = issues.findIndex(x => x.date === current); if (i > 0) showIssue(issues[i - 1].date); });
         window.addEventListener('hashchange', () => {
             const h = location.hash.slice(1);
-            if (/^\d{4}-\d{2}-\d{2}$/.test(h) && h !== select.value) showIssue(h, { scroll: true });
+            if (/^\d{4}-\d{2}-\d{2}$/.test(h) && h !== current) showIssue(h, { scroll: true });
         });
+
+        // ---- 日期選擇器 ----
+        const MONTHS_EN = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+        const $ = (id) => document.getElementById(id);
+        const trigger = $('dateTrigger');
+        const pop = $('calPop');
+        const issueByDate = () => Object.fromEntries(issues.map(x => [x.date, x]));
+
+        function updateTrigger(idx) {
+            const [y, m, d] = current.split('-').map(Number);
+            const w = new Date(Date.UTC(y, m - 1, d)).getUTCDay();
+            $('tileMonth').textContent = MONTHS_EN[m - 1];
+            $('tileDay').textContent = d;
+            $('trigDate').textContent = `${m} 月 ${d} 日（${WEEKDAYS[w]}）`;
+            $('trigSub').textContent = `${y} · 第 ${issues.length - idx} 期 · ${issues[idx].count} 則`;
+            $('trigLatest').classList.toggle('hidden', idx !== 0);
+        }
+
+        function peek(date) {
+            const x = issueByDate()[date];
+            $('calPeekDate').textContent = x ? `${fmtDate(date)} · ${x.count} 則` : '';
+            $('calPeekTitle').textContent = x ? x.title : '';
+        }
+
+        function renderCal() {
+            const [y, m] = calMonth.split('-').map(Number);
+            const byDate = issueByDate();
+            const months = issues.map(x => x.date.slice(0, 7));
+            $('calTitle').textContent = `${y} 年 ${m} 月`;
+            $('calPrev').disabled = calMonth <= months[months.length - 1];
+            $('calNext').disabled = calMonth >= months[0];
+
+            const cells = [];
+            const lead = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
+            const days = new Date(Date.UTC(y, m, 0)).getUTCDate();
+            for (let i = 0; i < lead; i++) cells.push(make('span'));
+            for (let d = 1; d <= days; d++) {
+                const date = `${calMonth}-${String(d).padStart(2, '0')}`;
+                const x = byDate[date];
+                if (!x) { cells.push(make('span', 'h-9 flex items-center justify-center text-sm text-slate-300 dark:text-slate-600 tabular-nums', String(d))); continue; }
+                const on = date === current;
+                const b = make('button', 'relative h-9 rounded-lg text-sm font-semibold tabular-nums transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 '
+                    + (on ? 'bg-gradient-to-br from-blue-600 to-indigo-500 text-white shadow-md shadow-blue-500/30'
+                          : 'text-slate-800 dark:text-slate-100 hover:bg-blue-50 dark:hover:bg-blue-900/30 hover:text-blue-600 dark:hover:text-blue-300'), String(d));
+                b.type = 'button';
+                b.title = x.title;
+                b.setAttribute('aria-label', `${fmtDate(date)}：${x.title}`);
+                if (on) b.setAttribute('aria-current', 'date');
+                b.appendChild(make('span', 'absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full ' + (on ? 'bg-white' : 'bg-blue-500')));
+                b.addEventListener('mouseenter', () => peek(date));
+                b.addEventListener('focus', () => peek(date));
+                b.addEventListener('click', () => { closeCal(); showIssue(date); });
+                cells.push(b);
+            }
+            $('calGrid').replaceChildren(...cells);
+            peek(current);
+        }
+
+        function openCal() {
+            calMonth = current.slice(0, 7);
+            renderCal();
+            pop.classList.remove('hidden');
+            pop.classList.add('open');
+            trigger.setAttribute('aria-expanded', 'true');
+            $('trigChevron').classList.add('rotate-180');
+            (pop.querySelector('[aria-current]') || pop.querySelector('#calGrid button'))?.focus();
+        }
+        function closeCal(focusBack = false) {
+            if (pop.classList.contains('hidden')) return;
+            pop.classList.add('hidden');
+            pop.classList.remove('open');
+            trigger.setAttribute('aria-expanded', 'false');
+            $('trigChevron').classList.remove('rotate-180');
+            if (focusBack) trigger.focus();
+        }
+        const shiftMonth = (n) => {
+            const [y, m] = calMonth.split('-').map(Number);
+            const d = new Date(Date.UTC(y, m - 1 + n, 1));
+            calMonth = `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`;
+            renderCal();
+        };
+
+        trigger.addEventListener('click', () => { if (!current) return; pop.classList.contains('hidden') ? openCal() : closeCal(); });
+        $('calPrev').addEventListener('click', () => shiftMonth(-1));
+        $('calNext').addEventListener('click', () => shiftMonth(1));
+        $('calLatest').addEventListener('click', () => { closeCal(); showIssue(issues[0].date); });
+        $('calGrid').addEventListener('mouseleave', () => peek(current));
+        document.addEventListener('click', (e) => { if (!$('datePicker').contains(e.target)) closeCal(); });
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeCal(true); });
         init();
     </script>
 </body>
