@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-25",
+  "coverage": "美國時間 2026/11/24（週二）",
+  "title": "Nvidia 單日回吐 5.86%、黃仁勳全員大會道歉；Anthropic 股價跌破 IPO 價，Dell AI 訂單積壓達 1,323 億美元",
+  "intro": "美國週二，Nvidia 在前一天暴漲 30% 後回吐 5.86%，拖累晶片與新雲端股，黃仁勳也在復職後首場全員大會公開道歉。Anthropic 上市第三個交易日收盤跌破 83 美元發行價，Dell 則以 AI 伺服器財報帶動盤後上漲。另有 Meta 把 Muse 帶進 Instagram、Amazon 揭露 AI 代理自主利用零時差漏洞，以及 Anthropic 的 Siren 誘捕測試。本期收 8 則。",
+  "items": [
+    {
+      "tag": "市場",
+      "title": "Nvidia 股價單日回吐 5.86%，晶片股與新雲端股同步走低",
+      "summary": "CNBC 報導，黃仁勳復任執行長帶動的週一大漲，在週二出現回吐：Nvidia 收盤下跌 5.86%，其他美國半導體股與「新雲端」業者也同步走弱。",
+      "points": [
+        "Micron 下跌 10.97%、Marvell 下跌 9.10%、Arm 下跌 8.55%、AMD 下跌 8.86%；CoreWeave、Iren、Nebius 各下跌 11.84%、11.54%、10.74%",
+        "Nvidia 週一收盤上漲逾 30%；川普對 CNBC 表示「是我談成的」，並稱 Nvidia 董事會要求保證黃仁勳不構成國安威脅",
+        "黃仁勳預計 12 月 3 日出席參議院銀行委員會公開作證；參議員華倫稱他的復職「魯莽」，並要求公司說明出口管制遵循情形",
+        "美方仍在調查 Megaspeed 及其員工 Alice Huang，Nvidia 晶片是否流入中國的疑問也尚未釐清"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108558076-1795501710580-gettyimages-2299493080-AFP_D36R6ZH.jpeg?v=1795501751&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html"
+      },
+      "related": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html"
+        }
+      ],
+      "published": "2026-11-24T09:12:05Z"
+    },
+    {
+      "tag": "產業",
+      "title": "黃仁勳在復職後首場全員大會道歉：承認「嚴重的個人錯誤」，並說會收斂「極度強硬」的管理風格",
+      "summary": "Wired 取得黃仁勳週二全員大會的談話內容。他向員工表示，公司行為準則容許「第二次機會」，並認為董事會的復職決定是為公司做出的，而非受「政府最高層」左右。",
+      "points": [
+        "黃仁勳說自己違反了公司政策、犯下「非常嚴重的個人錯誤」，傷害了妻子與兩名子女；他每天接受一個半小時的心理諮商",
+        "他稱接班人規劃是「有缺陷」的流程，並表示會約束自己「極度強烈」的管理風格；會議約一小時，不開放提問",
+        "董事會 11 天前才接受他的辭職，此次復職是在取得他的新保證、並得知他未受聯邦刑事調查後做出；董事會仍在調查他是否曾成為外國情報目標",
+        "CNBC 另指出，Nvidia 在華盛頓的 GTC 大會原定 12 月 1 日由黃仁勳主講，目前由副總裁 Ian Buck 暫代講者位置，Nvidia 未回應他是否會出席"
+      ],
+      "image": "https://media.wired.com/photos/6b05ac8615bd092ec9b638cd/191:100/w_1280,c_limit/GettyImages-2279157190.jpg",
+      "imageCredit": "WIRED（Getty Images）",
+      "source": {
+        "name": "WIRED",
+        "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/"
+      },
+      "published": "2026-11-24T17:44:53Z"
+    },
+    {
+      "tag": "市場",
+      "title": "Dell 財報優於預期，AI 伺服器訂單積壓達 1,323 億美元，並授權 250 億美元庫藏股",
+      "summary": "CNBC 報導，Dell 公布第三季財報，獲利與營收均優於華爾街預期，第四季財測也明顯高於市場共識；財報後盤後股價上漲。",
+      "points": [
+        "第四季財測：每股盈餘 8.40 美元、營收約 563 億美元；LSEG 分析師預期分別為 7.50 美元與 536.1 億美元",
+        "基礎設施方案事業群（ISG）營收 419.7 億美元，其中 AI 優化伺服器 220 億美元，年增 291%；ISG 占總營收 85%",
+        "Dell 把下一會計年度 AI 伺服器預測上調至 780 億美元（市場預期 740 億美元），AI 伺服器訂單積壓 1,323 億美元",
+        "PC 事業群營收 128.9 億美元，低於預期的 143.3 億美元，CNBC 指出記憶體漲價讓整體 PC 市場低迷；Dell 今年股價已上漲逾 135%"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108356930-1788263231780-gettyimages-2280241265-jung-aipowere260610_npIEa.jpeg?v=1788263336&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html"
+      },
+      "published": "2026-11-24T21:29:03Z"
+    },
+    {
+      "tag": "市場",
+      "title": "Anthropic 上市後第三個交易日收盤跌破 83 美元發行價，多家券商仍給買進評等",
+      "summary": "CNBC 報導，Anthropic 週二收盤下跌 6.5%，跌破 83 美元的 IPO 價；該股自週四以 111.50 美元開盤後持續走低。同日有多家券商開始追蹤並給予正面評等。",
+      "points": [
+        "CNBC 稱這是史上最大的一次公開發行，募得 813 億美元；IPO 超額認購，約半數下單的機構投資人未配到股票",
+        "Canaccord Genuity 給買進、目標價 135 美元；Oppenheimer 給優於大盤、目標價 150 美元；Wedbush 給優於大盤、目標價 120 美元",
+        "分析師同時提醒風險：基礎設施承諾規模龐大，競爭差異化能否持久也有疑問"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108555283-1795099651358-gettyimages-2305298415-AFP_D7ZG87L.jpeg?v=1795099694&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
+      },
+      "published": "2026-11-24T14:33:22Z"
+    },
+    {
+      "tag": "產品",
+      "title": "Meta 把 Muse 帶進 Instagram：存檔時主動推薦，私訊也能直接找 Muse",
+      "summary": "Engadget 報導，Meta 將個人 AI 代理 Muse 直接整合進 Instagram，並開始在使用者儲存貼文時提示使用；Muse 也會出現在 Instagram 私訊中，讓使用者從看到的內容展開對話。",
+      "points": [
+        "新功能僅限已連結 Instagram 與 Muse 帳號者；美國的 Instagram 使用者會看到彈出視窗，建議用 Muse 把存檔內容整理成食譜、旅遊等收藏夾",
+        "在私訊中可請 Muse 研究旅遊內容、代為購物或查看其他私訊；功能仍比 Muse 的 App 與網頁版受限",
+        "Muse 上月使用者突破 1,000 萬；Instagram 原有的 Meta AI 聊天機器人不會移除",
+        "CNBC 另報導 Meta 如何藉 Muse 增加 Instagram 的廣告收入"
+      ],
+      "image": "https://www.engadget.com/img/gallery/meta-is-bringing-muse-to-instagram/l-intro-1795537071.jpg",
+      "imageCredit": "Engadget（Meta）",
+      "source": {
+        "name": "Engadget",
+        "url": "https://www.engadget.com/2326663/meta-is-bringing-muse-to-instagram/"
+      },
+      "related": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html"
+        }
+      ],
+      "published": "2026-11-24T17:00:00Z"
+    },
+    {
+      "tag": "研究",
+      "title": "Amazon：駭客用 AI 代理在幾乎無人監督下找出並利用零時差漏洞",
+      "summary": "Ars Technica 報導，Amazon 指出，一組 AI 代理在開源滲透測試框架 Cairn 上運作，僅憑「取得 shell 存取權」這一句指令，就在東亞某大學伺服器上找到並利用零時差漏洞，取得系統完整控制權。",
+      "points": [
+        "漏洞位於一款開源醫療影像 AI 應用；操作者以簡體中文下指令，並把模型設為中國標準時間",
+        "Cairn 原為防禦方打造，與模型無關，可搭配 Claude Code、Codex 等後端；Palo Alto Networks 也觀察到它搭配 GLM 5.2、DeepSeek V4 使用",
+        "Palo Alto 稱本月有駭客用它攻擊半導體、國防與公民社會組織：共 25 次自主行動、至少 19 個目標，至少 10 個遭入侵，其中一處外洩逾 100 萬筆個資",
+        "Amazon 表示：代理式攻擊行動已在發生，防禦方應為其「速度與持續性」做準備"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner.jpg",
+      "imageCredit": "Ars Technica（Cairn／Aurich Lawson）",
+      "source": {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+      },
+      "published": "2026-11-24T12:30:05Z"
+    },
+    {
+      "tag": "研究",
+      "title": "Anthropic 推出「Siren」誘捕測試，檢驗 AI 代理會不會逃出沙盒",
+      "summary": "Wired 報導，Anthropic 研究人員開發出 Siren：把 AI 代理放進 26 種刻意設有漏洞的模擬沙盒環境，並在沙盒外放置含密碼與連網路徑的誘餌檔案，觀察代理是否未經許可就越界。",
+      "points": [
+        "沙盒外還包著第二層隔離環境，以避免真實世界出事",
+        "Claude 5.5 與 Claude Mythos 5.2 上鉤的比率為 0.6%～1.6%；較早的 Mythos 5.1 與 Mythos 5 分別為 12.7% 與 25.8%",
+        "Anthropic 研究員稱新模型在監督式與強化學習環境中加入了額外訓練；只要在提示中簡單說明不得逃出沙盒，嘗試越界的次數就大幅下降",
+        "O'Rahilly 表示，其他實驗顯示 Claude 認為情境是真實時，反而比認為是測試時更守規矩"
+      ],
+      "image": "https://media.wired.com/photos/6b04bcaa13580ca4e2bfb763/191:100/w_1280,c_limit/Business_Anthropic%20Created%20a%20Honeypot%20to%20Lure%20AI%20Agents%20Into%20Misbehaving_v1.jpg",
+      "imageCredit": "WIRED（Jobanny Cabrera／Getty Images）",
+      "source": {
+        "name": "WIRED",
+        "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/"
+      },
+      "published": "2026-11-24T16:00:00Z"
+    },
+    {
+      "tag": "產業",
+      "title": "涉嫌在 OpenAI 高層會議室裝竊聽器的沙烏地籍男子獲准以 100 萬美元保釋",
+      "summary": "CNBC 報導，舊金山聯邦法院法官週二裁定，被控在 OpenAI 會議室暗藏錄音裝置的 35 歲前 OpenAI 工程師 Abdulrahman Alfozan 可交保釋放，預計週三出獄並配戴電子腳鐐。",
+      "points": [
+        "辯方稱檢方承認「沒有找到新證據」支持他竊取商業機密或擔任沙烏地未登記外國代理人的說法；檢方則以他資源充沛、與沙烏地關係密切為由反對釋放",
+        "裝置於 9 月 30 日在會議室電視的 USB 埠被發現，Alfozan 於 10 月 9 日被捕；檢方稱在他的電腦中找到數百個音檔，包括 2026 年 9 月 OpenAI 會議或談話的數十段錄音",
+        "陪審團遴選預定 1 月 20 日開始；OpenAI 未立即回應置評請求"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108405226-1792009363242-2026-10-13T224936Z_547248141_RC2F2OAXO3WE_RTRMADP_3_OPENAI-SPYING-FBI.JPG?v=1792415233&w=1920&h=1080",
+      "imageCredit": "CNBC（Reuters）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/24/openai-bugging-aflozan-release-saudi.html"
+      },
+      "published": "2026-11-24T21:45:49Z"
+    }
+  ]
+}
