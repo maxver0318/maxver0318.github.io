@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-26",
+  "coverage": "美國時間 2026/11/25（週三，感恩節前一天）",
+  "title": "科技股因 AI 疑慮再度走弱，Vance 與川普對黃仁勳「是否被調查」說法不一；FCC 核准 SpaceX 百萬顆太空運算衛星",
+  "intro": "美國週三科技股在黃仁勳復職效應退燒後再度走弱，Anthropic 則在跌破發行價後反彈；Vance 的說法與川普此前談話出現落差，FCC 也核准 SpaceX 部署最多 100 萬顆太空 AI 運算衛星。另有 Nvidia GPU 因新規湧入二手市場、Character.AI 資料拍賣遭 42 州檢察長反對。感恩節前夕新聞量較少，本期收 8 則。",
+  "items": [
+    {
+      "tag": "市場",
+      "title": "科技股再度走弱、Nasdaq 跌 0.6%；Anthropic 在跌破發行價後反彈逾 4%",
+      "summary": "CNBC 報導，黃仁勳復職帶來的買盤退燒，加上高於預期的通膨數據，美國週三科技股走低；Anthropic 則在前一日跌破上週 IPO 發行價後反彈。",
+      "points": [
+        "Nasdaq 綜合指數下跌 0.6%，已自盤中低點收斂；Nvidia 下跌 4%、Micron 下跌 4%、Oracle 下跌逾 5%",
+        "Barclays 的 Venu Krishna 稱目前是「恐慌」，並說市場認為 AI 成長敘事「撞牆」",
+        "Anthropic 逆勢上漲逾 4%；Meta 上漲 3%，Amazon 與 Alphabet 各跌約 2%"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108549914-1794489742468-108549914-1794487406211-gettyimages-2299714527-UK_HUANG.jpg?v=1795450267&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html"
+      },
+      "related": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html"
+        }
+      ],
+      "published": "2026-11-25T17:10:17Z"
+    },
+    {
+      "tag": "政策",
+      "title": "Vance：司法部告知黃仁勳「未受任何調查」，與川普此前說法出現落差",
+      "summary": "CNBC 報導，副總統 Vance 週三表示，司法部長 Blanche 告訴他黃仁勳沒有被調查。川普週一曾對 CNBC 說已有調查且黃仁勳「被證明清白」。",
+      "points": [
+        "Reuters 週三報導，司法部在川普推動復職前並未對黃仁勳進行正式調查；Blanche 依據對 Super Micro 與 Megaspeed 的調查，認為沒有證據顯示他違法",
+        "Blanche 週二被問及是否有調查時迴避回答，只說總統「與很多人談過」",
+        "白宮、司法部與 Nvidia 未即時回應 CNBC 的置評請求"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108558516-17955383482025-12-03t204438z_1611070846_rc269iamutg0_rtrmadp_0_nvidia-huang-congress.jpeg?v=1795635517&w=1920&h=1080",
+      "imageCredit": "CNBC（Reuters）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html"
+      },
+      "published": "2026-11-25T20:28:42Z"
+    },
+    {
+      "tag": "政策",
+      "title": "FCC 核准 SpaceX 部署 100 萬顆太空 AI 運算衛星",
+      "summary": "FCC 主席 Carr 週三宣布，核准 SpaceX 的 Starmind 星系，在軌道上部署多達 100 萬顆 AI 運算衛星，以太陽能供電。",
+      "points": [
+        "Amazon（Kuiper）、Viasat 與美國天文學會曾提出否決請願；Amazon 稱該計畫是「宏願而非真正的計畫」",
+        "FCC 表示已駁回其無權裁量的環境等部分意見；批評者擔憂夜空光害與太空垃圾連鎖碰撞",
+        "Google 的 Project Suncatcher 與 Blue Origin 的 Project Sunrise（最多 51,600 顆）也在布局軌道資料中心"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108368728-1790601399956-Screenshot_2026-09-28_at_91434_AM.png?v=1790601411&w=1920&h=1080",
+      "imageCredit": "CNBC（SpaceX）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
+      },
+      "related": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+        }
+      ],
+      "published": "2026-11-25T18:22:59Z"
+    },
+    {
+      "tag": "晶片",
+      "title": "美國收緊中國遠端使用先進晶片規定後，Nvidia GPU 賣家急尋新買家",
+      "summary": "CNBC 引述三位知情人士報導，自 11 月 16 日宣布的新規發布以來，市場上出現異常大量的 Nvidia GPU 待售，原本多是為租給中國企業的資料中心而備。",
+      "points": [
+        "商務部 BIS 的臨時最終規則針對中國企業在海外資料中心遠端取用先進晶片的漏洞，11 月 19 日生效",
+        "GPU Mart 總裁 Jack Duhamel 表示，數千顆 B300 GPU 的買家搜尋已在進行",
+        "貿易代表 Greer 說新規目的是封堵「漏洞」；Nvidia 拒絕置評"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108558280-1795524153938-gettyimages-2306090565-NVIDIA_HQ.jpeg?v=1795524192&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html"
+      },
+      "published": "2026-11-25T17:28:24Z"
+    },
+    {
+      "tag": "政策",
+      "title": "42 州檢察長出手，阻止 Character.AI 在破產程序中拍賣用戶聊天紀錄",
+      "summary": "Engadget 報導，42 位州檢察長要求破產法院阻止 Character.AI 出售平台資產，包括含兒童在內的用戶聊天紀錄與 IP 位址。",
+      "points": [
+        "拍賣訂於 12 月 1 日；目前唯一公開的出價者 Smirks and Pangs Acquisition LLC 在成為底價出價者前一天才成立，資金來源未揭露",
+        "檢察長指出協議未限制買家日後處理或轉售資料",
+        "他們要求駁回 35 萬美元的分手費，並禁止出售兒童對話與敏感資料"
+      ],
+      "image": "https://www.engadget.com/img/gallery/state-ags-are-trying-to-stop-character-ai-from-auctioning-off-users-chat-histories/l-intro-1795637016.jpg",
+      "imageCredit": "Engadget（Justlight／Shutterstock）",
+      "source": {
+        "name": "Engadget",
+        "url": "https://www.engadget.com/2328630/state-ags-are-trying-to-stop-characterai-from-auctioning-off-users-chat-histories/"
+      },
+      "published": "2026-11-25T20:04:07Z"
+    },
+    {
+      "tag": "產業",
+      "title": "OpenAI 總部竊聽案被告 Alfozan 獲准以 100 萬美元交保，檢方試圖攔阻未果",
+      "summary": "CNBC 報導，被控在 OpenAI 總部高階主管會議室裝設竊聽器的沙烏地籍前員工 Alfozan 已獲釋，法官預計 12 月 3 日舉行聽證，審理檢方撤銷交保的聲請。",
+      "points": [
+        "檢察官主張他有逃往沙烏地的高度風險；法官表示是在他已獲釋後才得知檢方的臨時聲請",
+        "辯方稱檢方承認未找到證據支持他竊取商業機密或擔任未登記外國代理人的推測",
+        "他預計配戴電子腳環；檢方表示調查仍在進行"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108405226-1792009363242-2026-10-13T224936Z_547248141_RC2F2OAXO3WE_RTRMADP_3_OPENAI-SPYING-FBI.JPG?v=1792415233&w=1920&h=1080",
+      "imageCredit": "CNBC（Reuters）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/25/openai-bugging-aflozan-bond-release-saudi.html"
+      },
+      "published": "2026-11-25T18:14:03Z"
+    },
+    {
+      "tag": "市場",
+      "title": "AI 債務疑慮升溫：投資人對大型科技股的資本支出轉趨挑剔",
+      "summary": "CNBC 報導，Man Group 等機構認為債券市場對 AI 基礎建設的融資胃口正在收緊，「先花錢再問問題」的時代可能已結束。",
+      "points": [
+        "Man Group 分析：Oracle、Alphabet 與部分晶片股自 6 月高點到上週五收盤下跌 25–45%，而未參與軍備競賽的 Apple 上漲近 20%",
+        "Anthropic 11 月 19 日上市，為史上最大 IPO；Man Group 指出它已接近自由現金流損益兩平",
+        "L&G 的 Matthew Rees 稱 Oracle、SpaceX 等 BBB 級發行人的交易水準更像單 B"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/107417946-1716311561256-gettyimages-2131329168-April_3_2024_Krakow_AI_logoes-9.jpg?v=1727274261&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html"
+      },
+      "published": "2026-11-25T06:29:46Z"
+    },
+    {
+      "tag": "生活",
+      "title": "Nothing 推出內建 AI 筆記功能的 Ear (note) 耳機，12 月 8 日發表",
+      "summary": "Engadget 報導，Nothing 宣布首款「AI 原生」裝置 Ear (note)，可轉錄並摘要面對面對話、通話、線上會議與語音備忘。",
+      "points": [
+        "支援 Hi-Res 音訊播放，機殼有類似 Sony Walkman 的 Record 與 Talk 按鍵",
+        "價格與規格尚未公布，Nothing 稱會「很快」提供更多資訊",
+        "Plaud 今年 8 月已推出同類的 AI 耳機 Plaud One"
+      ],
+      "image": "https://www.engadget.com/img/gallery/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking/l-intro-1795622251.jpg",
+      "imageCredit": "Engadget（Nothing）",
+      "source": {
+        "name": "Engadget",
+        "url": "https://www.engadget.com/2328122/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking/"
+      },
+      "related": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal"
+        }
+      ],
+      "published": "2026-11-25T16:03:17Z"
+    }
+  ]
+}
