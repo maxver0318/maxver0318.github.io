@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-27",
+  "coverage": "美國時間 2026/11/26（週四，感恩節）",
+  "title": "Nvidia 傳停止向東南亞四國出貨 AI 晶片；Ars 報導 GPT-6 Astra 在物理基準答對 49/50",
+  "intro": "美國週四是感恩節，新聞量偏少。Nvidia 被報導停止對馬來西亞、新加坡、泰國與印尼出貨 AI 晶片；另有前晚的 GPT-6 Astra 物理基準測試、紐約州 AI 玩具禁令與 OpenAI 用量合併等消息，本期收 7 則（部分發布於 11/25 晚間，尚未收錄）。",
+  "items": [
+    {
+      "tag": "晶片",
+      "title": "Nvidia 傳也停止向東南亞四國出貨 AI 晶片",
+      "summary": "The Verge 引述 Financial Times 報導，Nvidia 已暫停向馬來西亞、新加坡、泰國與印尼出貨；該公司先前已表示停止對中國銷售 AI 晶片。",
+      "points": [
+        "此舉緊接在上週美國收緊限制之後，新規目的是限制中國透過海外資料中心取得 AI 算力"
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1043079/now-nvidias-stopped-sending-chips-to-southeast-asia-too"
+      },
+      "published": "2026-11-26T10:17:50Z"
+    },
+    {
+      "tag": "研究",
+      "title": "Ars Technica：前沿 AI 已能解出頂尖物理學家需一整天的問題",
+      "summary": "Ars Technica 報導，一組理論物理學家請同行提供未公開的研究小題，建立 AI 基準測試。初步結果顯示領先模型約能自行解出 60%，完整測試時 GPT-6 Astra 解出近 90%。",
+      "points": [
+        "團隊把人類解答交給 Astra 檢視錯在哪，它主張是人類解答有誤並指出細微錯誤；最終 50 題答對 49 題，漏掉的一題算是陷阱題",
+        "平均每題正確答案的算力成本不到 3 美元，且只需一次人類提示"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/physics-and-ai-1152x648.jpg",
+      "imageCredit": "Ars Technica（Aurich Lawson｜Getty Images）",
+      "source": {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
+      },
+      "published": "2026-11-25T12:00:28Z"
+    },
+    {
+      "tag": "政策",
+      "title": "紐約州簽署法案：AI 聊天機器人玩具暫停製造與銷售五年",
+      "summary": "The Verge 報導，州長 Hochul 簽署法案，對會連網與孩童對話的 AI 玩具（如會說話的絨毛玩具、玩偶與機器人）實施五年的製造、流通與銷售禁令。",
+      "points": [
+        "一個月前紐約州也才限制過聊天機器人與未成年人的互動方式"
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1042261/new-york-bans-ai-chatbot-toys-for-kids"
+      },
+      "published": "2026-11-25T17:50:09Z"
+    },
+    {
+      "tag": "產品",
+      "title": "OpenAI 將於 12 月合併 ChatGPT 與 Codex 用量額度",
+      "summary": "The Verge 報導，OpenAI 準備把「聊天」與「工作」分頁併入同一介面，並將在 12 月讓 Plus、Pro、Business 訂閱者共用 ChatGPT 與 Codex 的用量上限。",
+      "points": [
+        "OpenAI 表示，預期多數使用者等待額度重置的次數不會比現在更多"
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1042187/openai-is-combining-chatgpt-and-codex-usage-limits"
+      },
+      "published": "2026-11-25T16:39:06Z"
+    },
+    {
+      "tag": "產業",
+      "title": "Etsy 釐清 AI 訓練條款，賣家仍不買單",
+      "summary": "Etsy 更新服務條款、允許以賣家刊登內容訓練 AI 後引發賣家反彈；執行長 Kruti Patel Goyal 週一發文澄清，稱不會用來製作賣家商品的仿冒版，但 Ars Technica 與 The Verge 都指出批評並未平息。",
+      "points": [
+        "Goyal 表示內容用於協助買家找商品、經營店鋪、改善客服、推廣與維護市集安全",
+        "資深插畫家 Aaron Meshon 稱修訂是「糖衣包裝」，仍計畫 12 月 1 日關閉開了 15 年的店，並估計損失約兩成年收入"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2289651678-2560x1440.jpg",
+      "imageCredit": "Ars Technica（Getty Images）",
+      "source": {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/tech-policy/2026/11/etsy-clarifies-ai-terms-after-seller-backlash/"
+      },
+      "related": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1042318/etsy-clarified-its-ai-training-policy-but-sellers-still-arent-happy"
+        }
+      ],
+      "published": "2026-11-25T17:12:57Z"
+    },
+    {
+      "tag": "產業",
+      "title": "Amodei 發文澄清：從未主張「把自由意志讓給 AI」",
+      "summary": "The Verge 報導，Anthropic 執行長 Dario Amodei 在 X 發表約千字長文，回應其他 AI 高層對他與 Anthropic 的影射（相關說法曾刊於 Axios），稱自己一向明確表示那會是「糟糕的主意」。",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot_20261125-153847.png?quality=90&strip=all&crop=0%2C23.625752568742%2C100%2C52.748494862516&w=1200",
+      "imageCredit": "The Verge（X 貼文截圖）",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1042513/dario-amodei-clarifies-he-doesnt-believe-we-should-surrender-free-will-to-ai"
+      },
+      "published": "2026-11-25T20:49:14Z"
+    },
+    {
+      "tag": "生活",
+      "title": "Ars Live：戰時資料中心成為軍事目標，這種情況不會停",
+      "summary": "Ars Technica 整理線上座談：英國皇家聯合軍種研究所（RUSI）的 Joseph Jarnecki 指出，在 2026 年伊朗戰爭與俄烏戰爭中，公有雲資料中心因軍方雙重用途而日益成為攻擊目標。",
+      "points": [
+        "低成本自殺無人機可造成不成比例的經濟損失與雲端中斷；目標包含俄國 Yandex 與位於波灣的美國超大型雲端業者設施",
+        "烏克蘭在 2022 年全面入侵初期大規模遷移雲端，被視為值得借鏡的韌性做法"
+      ],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/yandex-data-center_sasovo-ryazan-russia.jpg",
+      "imageCredit": "Ars Technica（Planet Labs PBC）",
+      "source": {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/"
+      },
+      "published": "2026-11-25T16:47:14Z"
+    }
+  ]
+}
