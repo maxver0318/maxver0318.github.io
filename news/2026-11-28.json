@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-28",
+  "coverage": "美國時間 2026/11/27（週五，感恩節翌日／黑色星期五）",
+  "title": "OpenAI 對 Apple 提出反訴；Bloomberg 查到 Blackwell 機櫃現身上海資料中心",
+  "intro": "美國週五是黑色星期五，新聞量偏少但仍有重頭戲：OpenAI 在商業機密官司中對 Apple 反訴，Bloomberg 報導受限的 Nvidia Blackwell 機櫃出現在上海資料中心；另有中國晶片股創紀錄大漲、SAP 傳裁員 1 萬人等消息，本期收 9 則。",
+  "items": [
+    {
+      "tag": "產業",
+      "title": "OpenAI 對 Apple 提出反訴：指控竊取商業機密、施壓供應商",
+      "summary": "Bloomberg 與 Engadget（引述 Financial Times）報導，OpenAI 週五在加州聖荷西聯邦法院對 Apple 提出反訴，指控 Apple 竊取其商業機密，並破壞其供應商關係。這使 Apple 先前對 OpenAI 提起的商業機密訴訟變成雙方互告。",
+      "points": [
+        "Bloomberg 指出，OpenAI 同時指控 Apple 以不公平的雇用協議阻止人才跳槽",
+        "Engadget 報導，訴狀稱 Apple 脅迫與雙方都有合作的供應商；Apple 尚未回應"
+      ],
+      "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i_eo8bjfXL18/v1/1200x800.jpg",
+      "imageCredit": "Bloomberg",
+      "source": {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-27/openai-says-apple-pressured-suppliers-to-shun-its-devices"
+      },
+      "published": "2026-11-27T19:02:10Z"
+    },
+    {
+      "tag": "晶片",
+      "title": "Bloomberg：Nvidia Blackwell 機櫃現身上海資料中心，與 Alice Huang 相關公司有關",
+      "summary": "Bloomberg 查閱兩家公司提交給中國監管機關的文件，發現上海「長三角專案」資料中心列有 GB300 NVL72 與 GB200 伺服器機櫃，並與 Alice Huang 相關連。美國出口規定要求這類 Blackwell 系統輸往中國須取得許可。",
+      "points": [
+        "其中一家公司上海碩曜以一座 GB300 NVL72 機櫃作抵押，取得約 1,400 萬美元貸款",
+        "Bloomberg 以序號查公開保固資料庫，追到台灣的技嘉；機櫃如何抵達中國仍不明"
+      ],
+      "image": "https://www.engadget.com/img/gallery/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/l-intro-1795804126.jpg",
+      "imageCredit": "Engadget（Sean Gallup｜Getty Images）",
+      "source": {
+        "name": "Engadget",
+        "url": "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/"
+      },
+      "published": "2026-11-27T19:45:23Z"
+    },
+    {
+      "tag": "市場",
+      "title": "中國晶片股單日創史上最大漲幅，北京表態擴大國家隊護盤",
+      "summary": "CNBC 報導，中國國務院會議承諾強化「國家隊」（國家資金）穩定市場後，STAR 指數大漲 14%，CSI 半導體指數單日上漲 17.6%，創紀錄。",
+      "points": [
+        "領漲者包括 CXMT、寒武紀（Cambricon）與中芯國際（SMIC）",
+        "上週美國才公布新規，進一步限制中國企業透過海外資料中心取得先進 AI 晶片"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108316445-1780531868664-gettyimages-2267522618-Stock_Market.jpeg?v=1780531885&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html"
+      },
+      "published": "2026-11-27T10:13:44Z"
+    },
+    {
+      "tag": "產業",
+      "title": "SAP 傳計畫裁減至少 1 萬個職位，同時通報資安事件",
+      "summary": "CNBC 引述 Bloomberg 報導，SAP 正規劃至少裁減 10,000 個職位，以因應 AI 時代的軟體業務重組。SAP 對 CNBC 表示尚未對進一步措施做出決定，也不評論臆測。",
+      "points": [
+        "Bloomberg 報導，各部門被要求提出可能的裁減，以產品、工程與銷售為重點",
+        "SAP 同日表示發現可疑活動並已採取措施，目前「沒有證據顯示客戶業務資料遭未經授權存取」",
+        "Challenger 報告：截至 10 月，美國雇主以 AI 為由的裁員公告達 121,401 件，約占總數 20%"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108120789-1742904573651-gettyimages-159129388-72801932.jpeg?v=1758797166&w=1920&h=1080",
+      "imageCredit": "CNBC（Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html"
+      },
+      "published": "2026-11-27T14:30:00Z"
+    },
+    {
+      "tag": "市場",
+      "title": "感恩節後科技股反彈，但分析師認為 Nvidia 難擺脫震盪",
+      "summary": "CNBC 報導，美股感恩節後半日交易前，Nasdaq-100 期貨上漲 2.3%，Nvidia 盤前漲逾 4%。另一篇 CNBC 分析指出，黃仁勳回歸後 Nvidia 股價曾大漲 31%，但週二已回吐部分漲幅。",
+      "points": [
+        "Nvidia 週三收在 149.30 美元、市值 3.6 兆美元，約比 10 月高點少 2 兆美元",
+        "分析師預期股價短期在 125 至 170 美元間盤整，並關注 12 月 1～3 日的國會出席"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108441789-1792586470134-gettyimages-2300709025-AFP_D3XH836.jpeg?v=1795450514&w=1920&h=1080",
+      "imageCredit": "CNBC（AFP｜Getty Images）",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/27/tech-download-jensen-huang-ai-market.html"
+      },
+      "published": "2026-11-27T12:00:22Z"
+    },
+    {
+      "tag": "生活",
+      "title": "AI 購物代理人黑五登場，但 Amazon 等零售商封鎖或設限",
+      "summary": "CNBC 報導，OpenAI、Meta、Google 等推出可代用戶下單的 AI 代理人，但 Amazon、eBay、聯合航空與 Kohl's 限制或封鎖其操作，Walmart、Sephora 則開放。出錯時誰負責也尚不明確。",
+      "points": [
+        "Forrester 分析師稱現況「好壞參半」，用戶可能看不到完整選項",
+        "McKinsey 與 ICSC 4 月預估，美國代理人商務營收 2030 年最高可達 1 兆美元"
+      ],
+      "image": "https://image.cnbcfm.com/api/v1/image/108560156-1795790550973-AgentGame.jpg?v=1795790567&w=1920&h=1080",
+      "imageCredit": "CNBC",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html"
+      },
+      "published": "2026-11-27T16:43:14Z"
+    },
+    {
+      "tag": "政策",
+      "title": "波蘭與 Palantir 簽下約 3 億美元國防 AI 合約",
+      "summary": "Bloomberg 報導，波蘭國防部週五簽署採購 Palantir 軍用決策支援軟體 Maven Smart System 的協議，五年期、估值約 3 億美元，用於分析戰場數據。",
+      "points": [
+        "該系統已被北約與美軍使用",
+        "此舉與部分歐洲盟友降低對美國科技依賴的趨勢相反"
+      ],
+      "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/izNgdu_IjHls/v1/1200x800.jpg",
+      "imageCredit": "Bloomberg",
+      "source": {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-27/poland-signs-300-million-palantir-deal-to-use-ai-for-defense"
+      },
+      "published": "2026-11-27T12:30:04Z"
+    },
+    {
+      "tag": "政策",
+      "title": "洛杉磯聯合學區在校發裝置上停用 Google AI 搜尋摘要",
+      "summary": "Engadget 引述 AP 報導，約 50 萬名學生的 LAUSD 悄悄關閉校發裝置上的 Google AI Overviews，學區稱這是暫時措施，目的是維持「適齡且安全」的體驗。",
+      "points": [
+        "Google 先前向學校表示搜尋與 AI 已深度整合、無法分開",
+        "Google 本月稍早已讓 Gemini 對多數 K-12 學生改為需主動開啟"
+      ],
+      "image": "https://www.engadget.com/img/gallery/la-school-district-blocks-googles-ai-search-features/l-intro-1795816633.jpg",
+      "imageCredit": "Engadget（Firmbee｜Unsplash）",
+      "source": {
+        "name": "Engadget",
+        "url": "https://www.engadget.com/2329851/la-school-district-blocks-google-ai-search-features/"
+      },
+      "published": "2026-11-27T22:00:08Z"
+    },
+    {
+      "tag": "晶片",
+      "title": "Wired 專訪：德國 Q.ANT 以光子晶片降低 AI 耗能",
+      "summary": "Wired 專訪 Q.ANT 創辦人暨執行長 Michael Förtsch。該公司開發用光波而非電子處理資料的光子處理器，目標是與 GPU 並行運作，負責非線性運算以降低能耗與散熱成本。",
+      "points": [
+        "Q.ANT 近期已將晶片部署到雲端公司 IONOS 的設施做試點",
+        "公司稱已有 30 多個工程團隊在開發針對光子運算最佳化的 AI 模型"
+      ],
+      "image": "https://media.wired.com/photos/6b073e1d34813a006d725bef/191:100/w_1280,c_limit/QANT-CEO-QandA-Business.jpg",
+      "imageCredit": "Wired",
+      "source": {
+        "name": "Wired",
+        "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/"
+      },
+      "published": "2026-11-27T07:00:00Z"
+    }
+  ]
+}
